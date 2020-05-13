@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/alice/static/css/main.42f80819.chunk.css",
+    "main.js": "/alice/static/js/main.252267b7.chunk.js",
+    "main.js.map": "/alice/static/js/main.252267b7.chunk.js.map",
+    "runtime-main.js": "/alice/static/js/runtime-main.88a3146f.js",
+    "runtime-main.js.map": "/alice/static/js/runtime-main.88a3146f.js.map",
+    "static/js/2.2f3bde8b.chunk.js": "/alice/static/js/2.2f3bde8b.chunk.js",
+    "static/js/2.2f3bde8b.chunk.js.map": "/alice/static/js/2.2f3bde8b.chunk.js.map",
+    "index.html": "/alice/index.html",
+    "precache-manifest.8be1d088713dc6ebd82357cff0b6d705.js": "/alice/precache-manifest.8be1d088713dc6ebd82357cff0b6d705.js",
+    "service-worker.js": "/alice/service-worker.js",
+    "static/css/main.42f80819.chunk.css.map": "/alice/static/css/main.42f80819.chunk.css.map",
+    "static/js/2.2f3bde8b.chunk.js.LICENSE.txt": "/alice/static/js/2.2f3bde8b.chunk.js.LICENSE.txt",
+    "static/media/cpn.png": "/alice/static/media/cpn.60a80a55.png",
+    "static/media/croquis.png": "/alice/static/media/croquis.5c892404.png",
+    "static/media/cv.png": "/alice/static/media/cv.b3aaa426.png",
+    "static/media/down.png": "/alice/static/media/down.85e453a6.png",
+    "static/media/itw.png": "/alice/static/media/itw.bd0789d8.png",
+    "static/media/logoJeff.png": "/alice/static/media/logoJeff.e2c6c405.png",
+    "static/media/logoPromod.jpg": "/alice/static/media/logoPromod.c9a362e6.jpg",
+    "static/media/matrice.png": "/alice/static/media/matrice.9bd4fd11.png",
+    "static/media/parcours.png": "/alice/static/media/parcours.50cc6630.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.88a3146f.js",
+    "static/js/2.2f3bde8b.chunk.js",
+    "static/css/main.42f80819.chunk.css",
+    "static/js/main.252267b7.chunk.js"
+  ]
+}
