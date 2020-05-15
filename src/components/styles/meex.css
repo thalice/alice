@@ -1,0 +1,99 @@
+#meexLogo {
+  width: 60px;
+  height: 60px;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: bold;
+  color: #00b0f0;
+  cursor: pointer;
+  padding-bottom: 20px;
+  padding-right: 20px;
+}
+
+#meexBody {
+  position: relative;
+  border: 5px solid #00b0f0;
+  width: 90%;
+  padding: 40px;
+}
+#alignLogoBrand {
+  display: flex;
+  flex-direction: row;
+}
+#titreCentre {
+  text-align: center;
+}
+.open {
+  cursor: pointer;
+}
+.close {
+  position: absolute;
+  color: red;
+  font-size: xx-large;
+  top: 0;
+  right: 0;
+  padding: 20px;
+  cursor: pointer;
+}
+.titreMeex2 {
+  color: #00b0f0;
+  padding-top: 20px;
+}
+.titreMeex3 {
+  margin-top: 10px;
+  color: rgba(171, 37, 114, 1);
+}
+.titreMeex4 {
+  color: rgba(0, 189, 136, 1);
+  padding-top: 20px;
+}
+
+.proto {
+  color: blue;
+}
+#cpn {
+  width: 60%;
+  height: auto;
+}
+#parcours {
+  width: 60%;
+  height: auto;
+  margin-bottom: 50px;
+}
+#croquis {
+  width: 60%;
+  height: auto;
+  padding-bottom: 10px;
+}
+#itw {
+  width: 60%;
+  height: auto;
+  padding-top: 10px;
+}
+
+#matrice {
+  width: 60%;
+  height: auto;
+}
+
+#projet {
+  display: flex;
+  flex-direction: row;
+}
+
+.projet-contexte {
+  border-radius: 3%;
+  margin-right: 10px;
+  padding: 10px;
+}
+
+.setupColumn {
+  display: flex;
+  flex-direction: row;
+}
+
+.adjust50 {
+  width: 40%;
+  height: auto;
+  padding: 10px;
+}

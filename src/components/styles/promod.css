@@ -1,0 +1,96 @@
+#proLogo {
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+  padding-bottom: 20px;
+  padding-right: 20px;
+}
+#proBody {
+  position: relative;
+  border: 5px solid pink;
+  width: 90%;
+  padding: 40px;
+}
+#alignLogoBrand {
+  display: flex;
+  flex-direction: row;
+}
+#titreCentre {
+  text-align: center;
+}
+.open {
+  cursor: pointer;
+}
+.close {
+  position: absolute;
+  color: red;
+  font-size: xx-large;
+  top: 0;
+  right: 0;
+  padding: 20px;
+  cursor: pointer;
+}
+.titrePro2 {
+  color: pink;
+
+  padding-top: 20px;
+}
+.titrePro3 {
+  margin-top: 10px;
+  color: gray;
+}
+.titrePro4 {
+  color: rgb(248, 153, 109);
+  padding-top: 20px;
+}
+
+.proto {
+  color: blue;
+}
+#cpn {
+  width: 60%;
+  height: auto;
+}
+#parcours {
+  width: 60%;
+  height: auto;
+  margin-bottom: 50px;
+}
+#croquis {
+  width: 60%;
+  height: auto;
+  padding-bottom: 10px;
+}
+#itw {
+  width: 60%;
+  height: auto;
+  padding-top: 10px;
+}
+
+#matrice {
+  width: 60%;
+  height: auto;
+}
+
+#projet {
+  display: flex;
+  flex-direction: row;
+}
+
+.projet-contexte {
+  border: 3px solid gainsboro;
+  border-radius: 3%;
+  margin-right: 10px;
+  padding: 10px;
+}
+
+.setupColumn {
+  display: flex;
+  flex-direction: row;
+}
+
+.adjust50 {
+  width: 40%;
+  height: auto;
+  padding: 10px;
+}
