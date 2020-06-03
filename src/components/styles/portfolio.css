@@ -18,8 +18,6 @@
 }
 
 .titre1 {
-  border: 3px solid black;
-  background-color: rgb(253, 253, 52);
   padding: 2px;
   width: 100%;
   text-align: center;
@@ -31,4 +29,9 @@
 .alignProject {
   display: flex;
   flex-direction: column;
+}
+
+/*Mobile Version*/
+
+@media (max-width: 961px) {
 }

@@ -85,6 +85,41 @@ function Jeff() {
               </p>
             </div>
           </div>
+          <h2 className="titre2">Tester le prototype</h2>
+          <div>
+            <p>
+              Je vous invite à essayer{" "}
+              <a
+                className="proto"
+                href=" https://www.figma.com/proto/KD6iuoymN68dpjSTrsSRxq/Jeff-de-Bruges-V1?node-id=31%3A148&scaling=scale-down"
+                target="_blank"
+              >
+                ici le prototype utilisé
+              </a>{" "}
+              pour les tests utilisateurs (pas de compte nécessaire).
+            </p>
+            <p>
+              Au bout de 4 jours, le temps nous a évidemment manqué pour
+              élaborer une version 2. J'ai donc prototypé{" "}
+              <a
+                className="proto"
+                href="https://www.figma.com/proto/VwVRyAOotmMbKtWUsTWrSR/Jeff-V2Alice?node-id=305%3A2186&scaling=min-zoom"
+                target="_blank"
+              >
+                une seconde version que vous pouvez essayer ici.
+              </a>{" "}
+            </p>
+
+            <p>
+              <strong>Le parcours choisi:</strong> les prototypes ne sont pas
+              totalement fonctionnelles, et permettent de se faire une image
+              rapide d'un parcours utilisateur à tester. Seules les fonctions
+              qui répondent au parcours suivant sont cliquables: vous souhaitez
+              offrir une boîte de chocolat en cadeau à votre grand-mère et lui
+              faire livrer chez elle. Vous savez qu'elle aime les rochées fruit
+              passion/citron de Murcie/cerise Amarena{" "}
+            </p>
+          </div>
           <h2 className="titre2">Process Design Sprint</h2>
           <div>
             <h3 className="titre3">JOUR 1: COMPRENDRE/CHALLENGER</h3>
@@ -258,41 +293,6 @@ function Jeff() {
                 </div>
               </div>
             </div>
-          </div>
-          <h2 className="titre2">Tester le prototype</h2>
-          <div>
-            <p>
-              Je vous invite à essayer{" "}
-              <a
-                className="proto"
-                href=" https://www.figma.com/proto/KD6iuoymN68dpjSTrsSRxq/Jeff-de-Bruges-V1?node-id=31%3A148&scaling=scale-down"
-                target="_blank"
-              >
-                ici le prototype utilisé
-              </a>{" "}
-              pour les tests utilisateurs (pas de compte nécessaire).
-            </p>
-            <p>
-              Au bout de 4 jours, le temps nous a évidemment manqué pour
-              élaborer une version 2. J'ai donc prototypé{" "}
-              <a
-                className="proto"
-                href="https://www.figma.com/proto/VwVRyAOotmMbKtWUsTWrSR/Jeff?node-id=305%3A2186&scaling=min-zoom"
-                target="_blank"
-              >
-                une seconde version que vous pouvez essayer ici.
-              </a>{" "}
-            </p>
-
-            <p>
-              <strong>Le parcours choisi:</strong> les prototypes ne sont pas
-              totalement fonctionnelles, et permettent de se faire une image
-              rapide d'un parcours utilisateur à tester. Seules les fonctions
-              qui répondent au parcours suivant sont cliquables: vous souhaitez
-              offrir une boîte de chocolat en cadeau à votre grand-mère et lui
-              faire livrer chez elle. Vous savez qu'elle aime les rochées fruit
-              passion/citron de Murcie/cerise Amarena{" "}
-            </p>
           </div>
         </div>
       )}
