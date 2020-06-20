@@ -12,15 +12,23 @@ function Portfolio() {
     <div id="portfolioBody">
       {" "}
       <div>
-        <h1 className="titre1">COLLABORATION</h1>
+        <h1 className="titre1">ETUDES DE CAS</h1>
         <p>
-          Etudes de cas en collaboration avec des entreprises: création d'un
-          parcours utilisateur ou refonte d'un site existant.
+          Exempes de collaboration avec des entreprises qui nous ont fait
+          confiance
         </p>
-        <Rewood />
-        <Voyagerz /> <h4>En cours de rédaction</h4>
-        <Kokpit />
+        <p>
+          <strong>REMARQUES SUR LE PROTOTYPAGE :</strong> par soucis de temps,
+          les prototypes sont partiellement fonctionnelles. Ils permettent de se
+          faire une vision rapide du parcours utilisateur qui doit être testé.
+          Seules les fonctions qui répondent au parcours sont
+          cliquables.N'hésitez pas à consulter l'étude de cas dans la zone
+          "Tester le prototype" pour connaître le parcours que nous cherchons à
+          tester{" "}
+        </p>
+        <Rewood /> <Kokpit />
         <h4>En cours de rédaction</h4>
+        <Voyagerz /> <h4>En cours de rédaction</h4>
         <Meex />
         <h4>En cours de rédaction</h4>
       </div>

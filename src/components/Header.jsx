@@ -19,7 +19,7 @@ function Header() {
         </svg>
         <span>Ux designer</span>
       </div>
-      <div>"C'est promis, le mobile responsive arrive!"</div>
+
       <nav>
         <ul>
           <li>

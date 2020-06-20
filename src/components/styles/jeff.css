@@ -7,7 +7,7 @@
 }
 #jeffBody {
   position: relative;
-  border: 5px solid rgb(34, 116, 107);
+  /*border: 5px solid rgb(34, 116, 107);*/
   width: 90%;
   padding: 40px;
 }

@@ -1,0 +1,116 @@
+#rewLogo {
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+  padding-bottom: 20px;
+  padding-right: 20px;
+}
+#jeffBody {
+  position: relative;
+  /*border: 5px solid rgb(34, 116, 107);*/
+  width: 90%;
+  padding: 40px;
+}
+#alignLogoBrand {
+  display: flex;
+  flex-direction: row;
+}
+
+#presentation {
+  margin-bottom: 100px;
+}
+#titreCentre {
+  text-align: center;
+}
+.open {
+  cursor: pointer;
+}
+.close {
+  position: absolute;
+  color: red;
+  font-size: xx-large;
+  top: 0;
+  right: 0;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.infoClose {
+  font-style: italic;
+  text-align: center;
+}
+.titre2 {
+  color: rgba(208, 137, 78, 1);
+  padding-top: 20px;
+}
+.titre3 {
+  margin-top: 10px;
+  color: rgba(11, 103, 150, 1);
+}
+.titre4 {
+  color: rgba(217, 120, 3, 1);
+  padding-top: 20px;
+}
+
+.proto {
+  color: blue;
+}
+#cpn {
+  width: 100%;
+  height: auto;
+  border: 2px solid blue;
+}
+#parcours {
+  width: 100%;
+  height: auto;
+  margin-bottom: 50px;
+}
+
+#bench {
+  width: 100%;
+  height: auto;
+  margin-top: 50px;
+}
+
+#croquis {
+  width: 60%;
+  height: auto;
+  padding-bottom: 10px;
+}
+#itw {
+  width: 60%;
+  height: auto;
+  padding-top: 10px;
+}
+
+#matrice {
+  width: 60%;
+  height: auto;
+}
+
+#projet {
+  display: flex;
+  flex-direction: row;
+}
+
+.projet-contexte {
+  border: 3px solid rgb(93, 27, 27);
+  border-radius: 3%;
+  margin-right: 10px;
+  padding: 10px;
+}
+
+.setupColumn {
+  display: flex;
+  flex-direction: row;
+}
+
+.adjust50 {
+  width: 40%;
+  height: auto;
+  padding: 10px;
+}
+
+#test {
+  border: 2px solid red;
+}

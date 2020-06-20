@@ -7,7 +7,7 @@
 }
 #proBody {
   position: relative;
-  border: 5px solid pink;
+  /*border: 5px solid pink;*/
   width: 90%;
   padding: 40px;
 }
