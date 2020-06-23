@@ -28,12 +28,12 @@ function Portfolio() {
             <p>
               - Le graphisme n'est donc pas pris en compte. La composante UI est
               laissé de côté par manque de temps
-            </p>
-            Seules les fonctions qui répondent au parcours sont
-            cliquables.N'hésitez pas à consulter l'étude de cas dans la zone
-            "Tester le prototype" pour connaître le parcours que nous cherchons
-            à tester{" "}
+            </p>{" "}
           </strong>
+          Seules les fonctions qui répondent au parcours sont
+          cliquables.N'hésitez pas à consulter l'étude de cas dans la zone
+          "Tester le prototype" pour connaître le parcours que nous cherchons à
+          tester{" "}
         </p>{" "}
         <Rewood />
         <Kokpit />

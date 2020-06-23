@@ -83,8 +83,7 @@ function Kokpit() {
 
               <p>
                 <h4>Objectif:</h4>
-                créer un parcours utilisateur pour l'industriel souhaitant
-                destocker son bois,sur un site mobile-first non existant{" "}
+                créer un parcours utilisateur pour la maman pressée
               </p>
             </div>
             <div className="projet-contexteKok">
@@ -124,15 +123,24 @@ function Kokpit() {
               <p>
                 <h4>Ce que j'améliorerais:</h4>
                 <p>
-                  En tant qu'interviewer: allonger la durée du test en fonction
-                  des testeurs (certains sont friands de remarques et c'est pour
-                  le meilleur pour la team UX). Faire un listing de tous les
-                  aléas pour être préparé (on prévoit des plans B ou C, mais
-                  c'est toujours un tout autre imprévu qui fait surface:(
+                  En tant qu'interviewer:
+                  <p>
+                    - Allonger la durée du test en fonction des testeurs
+                    (certains sont friands de remarques et c'est pour le
+                    meilleur pour la team UX).
+                  </p>
+                  <p>
+                    -Faire un listing de tous les aléas pour être préparé (on
+                    prévoit des plans B ou C, mais c'est toujours un tout autre
+                    imprévu qui fait surface:(
+                  </p>
                 </p>
                 <p>
-                  En tant qu'UX Designer: un atelier d'architecture de
-                  l'information type OOUX aurait été efficace
+                  En tant qu'UX Designer:
+                  <p>
+                    un atelier d'architecture de l'information type OOUX aurait
+                    été efficace
+                  </p>
                 </p>
               </p>
               <p>
@@ -165,8 +173,7 @@ function Kokpit() {
               élaborer une version 2. J'ai donc prototypé{" "}
               <a
                 className="proto"
-                href="
-                https://www.figma.com/proto/2RBp6amJim29i15VpWpQlI/Alice?node-id=86%3A2576&viewport=-3852%2C5130%2C0.5&scaling=scale-down"
+                href="https://www.figma.com/proto/rUFrWbuMRR1yhQ8iI9Nzji/Alice?node-id=99%3A1399&viewport=4232%2C-3050%2C0.5&scaling=scale-down"
                 target="_blank"
               >
                 une seconde version "d'ajustement" que vous pouvez essayer ici.
