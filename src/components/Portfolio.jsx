@@ -5,7 +5,6 @@ import Promod from "./Promod";
 import Rewood from "./Rewood";
 import Voyagerz from "./Voyagerz";
 import Kokpit from "./Kokpit";
-import Meex from "./Meex";
 
 function Portfolio() {
   return (
@@ -13,24 +12,32 @@ function Portfolio() {
       {" "}
       <div>
         <h1 className="titre1">ETUDES DE CAS</h1>
-        <p>
+        <h3>
           Exempes de collaboration avec des entreprises qui nous ont fait
           confiance
-        </p>
-        <p>
-          <strong>REMARQUES SUR LE PROTOTYPAGE :</strong> par soucis de temps,
-          les prototypes sont partiellement fonctionnelles. Ils permettent de se
-          faire une vision rapide du parcours utilisateur qui doit être testé.
-          Seules les fonctions qui répondent au parcours sont
-          cliquables.N'hésitez pas à consulter l'étude de cas dans la zone
-          "Tester le prototype" pour connaître le parcours que nous cherchons à
-          tester{" "}
-        </p>
-        <Rewood /> <Kokpit />
-        <h4>En cours de rédaction</h4>
-        <Voyagerz /> <h4>En cours de rédaction</h4>
-        <Meex />
-        <h4>En cours de rédaction</h4>
+        </h3>
+        <p id="remarquesProto">
+          <strong>
+            REMARQUES SUR LE PROTOTYPAGE :
+            <p>- Les prototypes sont réalisés en UNE JOURNEE.</p>
+            <p>
+              - Ils sont donc partiellement fonctionnels: ils permettent de se
+              faire une vision rapide du parcours utilisateur qui doit être
+              testé{" "}
+            </p>
+            <p>
+              - Le graphisme n'est donc pas pris en compte. La composante UI est
+              laissé de côté par manque de temps
+            </p>
+            Seules les fonctions qui répondent au parcours sont
+            cliquables.N'hésitez pas à consulter l'étude de cas dans la zone
+            "Tester le prototype" pour connaître le parcours que nous cherchons
+            à tester{" "}
+          </strong>
+        </p>{" "}
+        <Rewood />
+        <Kokpit />
+        <Voyagerz />
       </div>
       <div>
         <h1 className="titre1"> CAS PRATIQUES</h1>

@@ -5,20 +5,21 @@
   padding-bottom: 20px;
   padding-right: 20px;
 }
-#jeffBody {
+#presentation {
+  margin-bottom: 100px;
+}
+#rewBody {
   position: relative;
-  /*border: 5px solid rgb(34, 116, 107);*/
-  width: 90%;
+  width: 100%;
   padding: 40px;
+  box-shadow: 5px 5px 5px gainsboro, -1em 0 0.4em gainsboro;
+  background-color: beige;
 }
 #alignLogoBrand {
   display: flex;
   flex-direction: row;
 }
 
-#presentation {
-  margin-bottom: 100px;
-}
 #titreCentre {
   text-align: center;
 }
@@ -52,14 +53,10 @@
   padding-top: 20px;
 }
 
-.proto {
+.lienProto {
   color: blue;
 }
-#cpn {
-  width: 100%;
-  height: auto;
-  border: 2px solid blue;
-}
+
 #parcours {
   width: 100%;
   height: auto;
@@ -73,18 +70,18 @@
 }
 
 #croquis {
-  width: 60%;
+  width: 100%;
   height: auto;
   padding-bottom: 10px;
 }
 #itw {
-  width: 60%;
+  width: 100%;
   height: auto;
   padding-top: 10px;
 }
 
 #matrice {
-  width: 60%;
+  width: 100%;
   height: auto;
 }
 
@@ -100,17 +97,10 @@
   padding: 10px;
 }
 
-.setupColumn {
-  display: flex;
-  flex-direction: row;
+#cpn {
+  width: 100%;
 }
 
-.adjust50 {
-  width: 40%;
-  height: auto;
-  padding: 10px;
-}
-
-#test {
-  border: 2px solid red;
+#prototype {
+  width: 100%;
 }

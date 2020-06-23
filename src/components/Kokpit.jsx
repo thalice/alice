@@ -1,14 +1,14 @@
 import React, { useState } from "react";
 import logoKok from "./img/kok/logoKok.png";
-import cpnRew from "./img/rewood/cpnRew.PNG";
-import parcoursRew from "./img/rewood/parcoursRew.png";
-import benchRew from "./img/rewood/benchRew.png";
-import croquisRew from "./img/rewood/croquisEnsRew.png";
-import croquisVoteRew from "./img/rewood/croquisVoteRew.png";
-import prototypeRew from "./img/rewood/figmaRew.png";
-import itwRew from "./img/rewood/itwRew.png";
-import matriceRew from "./img/rewood/matriceRew.png";
-import "./styles/rewood.css";
+import cpnKok from "./img/kok/cpnKok.png";
+import parcoursKok from "./img/kok/parcoursKok.png";
+import benchKok from "./img/kok/benchKok.png";
+import croquisKok from "./img/kok/croquisKok.png";
+import croquisVoteKok from "./img/kok/croquisVoteKok.png";
+import protoKok from "./img/kok/protoKok.png";
+import itwKok from "./img/kok/itwKok.png";
+import matriceKok from "./img/kok/matriceKok.png";
+import "./styles/kokpit.css";
 
 function Kokpit() {
   const [isOpen, setIsOpen] = useState(false);
@@ -19,9 +19,9 @@ function Kokpit() {
       <div id="alignLogoBrand">
         {" "}
         <img
-          id="rewLogo"
+          id="kokLogo"
           src={logoKok}
-          alt="logo Rewood"
+          alt="logo Kokpit"
           onClick={() => setIsOpen(!isOpen)}
         ></img>{" "}
         {/*Présentation*/}
@@ -31,22 +31,23 @@ function Kokpit() {
       </div>
       <div id="presentation">
         <p>
-          aide les entreprises à revaloriser le bois de façon écologique et
-          économique, via une marketplace pour les professionnels souhaitant
-          revendre à d'autres professionnels.
+          Pour changer le monde une couche à la fois, la couche lavable devient
+          louable désormais! Kokpit informe les parents sur l'utilisation de la
+          couche lavable pour convaincre les parents hésitants de ses bienfaits
+          pour la nature, le porte-monnaie et les fesses de bébé !
         </p>
         <p>
-          <strong>Rôle:</strong>facilitateur et UX Designer
+          <strong>Rôle:</strong>interviewer et UX Designer
         </p>
         <p>
-          <strong>Type de projet:</strong>création d'un parcours utilisateur
+          <strong>Type de projet:</strong>à partir d'un site web existant,
+          création d'un parcours utilisateur
         </p>
 
         <div>
           <button onClick={() => setIsOpen(!isOpen)}>Etude de cas</button>
           <a
-            href="
-            https://www.figma.com/proto/2RBp6amJim29i15VpWpQlI/Alice?node-id=86%3A2576&viewport=-3852%2C5130%2C0.5&scaling=scale-down"
+            href="https://www.figma.com/proto/rUFrWbuMRR1yhQ8iI9Nzji/Alice?node-id=99%3A1399&viewport=4232%2C-3050%2C0.5&scaling=scale-down"
             target="_blank"
           >
             {" "}
@@ -56,22 +57,22 @@ function Kokpit() {
       </div>
       {/*Debut*/}
       {isOpen && (
-        <div id="jeffBody" onClick={() => setIsOpen(!isOpen)}>
-          <h1 id="titreCentre"> Rewood</h1>
+        <div id="kokBody" onClick={() => setIsOpen(!isOpen)}>
+          <h1 id="titreCentre"> Kokpit</h1>
           <i id="infoClose">
             Pour fermer la fenêtre,cliquer sur la croix rouge ou n'importe où
             sur le bloc.
           </i>
           <span className="close">X</span>
           {/*Projet et context*/}
-          <h2 className="titre2">Projet et contexte</h2>
+          <h2 className="titre2kok">Projet et contexte</h2>
           <div id="projet">
-            <div className="projet-contexte">
+            <div className="projet-contexteKok">
               <p>
-                <h4>Sujet: </h4>REWOOD revalorise le bois via une marketplace :
-                les industriels ou professionnels du bois souhaitant déstocker
-                leurs excédants peuvent y mettre en vente leur stock à d'autres
-                professionnels.
+                <h4>Sujet: </h4> KOKPIT informe les parents sur l'utilisation de
+                la couche lavable et propose un service de location pour
+                convaincre les parents de ses bienfaits pour la nature, le
+                porte-monnaie et les fesses de bébé !
               </p>
               <p>
                 <h4>Durée:</h4>5 jours
@@ -86,17 +87,18 @@ function Kokpit() {
                 destocker son bois,sur un site mobile-first non existant{" "}
               </p>
             </div>
-            <div className="projet-contexte">
+            <div className="projet-contexteKok">
               <p>
-                <h4>Equipe:</h4>5 UX Designers à 3 mois de formation, en
-                collaboration avec Morgane Croquelois - notre porteuse de projet
+                <h4>Equipe:</h4>4 UX Designers à 4 mois de formation, en
+                collaboration avec Simon Delliaux et Niclas Ingmansson - nos
+                porteurs de projet.
               </p>
               <p>
                 <h4>Mon rôle:</h4>
-                UX designer et facilitateur. Le facilitateur anime les ateliers,
-                veille au bon déroulement du process (timing et respect des
-                consignes), et à la bonne dynamique du groupe (respect de la
-                parole de chacun,écourter les débats)
+                UX designer et interviewer. L'interviewer recrute des testeurs
+                via les réseaux sociaux selon les profils adaptés au persona. Il
+                fixe les rdv et mène les tests de façon à recevoir des feedbacks
+                utilisables pour l'amélioration du site.
               </p>
               <h4>Les outils utilisés: </h4>en télétravail lié aux circonstances
               sanitaires, nous avons utilisé
@@ -115,33 +117,43 @@ function Kokpit() {
                   <strong>Figma:</strong> prototypage
                 </li>
                 <li>
-                  <strong>Zoom:</strong> test utilisateur à distance
+                  <strong>Zoom et Google Meet:</strong> test utilisateur à
+                  distance
                 </li>
               </ul>
               <p>
-                <h4>Ce que j'améliorerais:</h4>En tant que facilitateur: Trouver
-                comment garder la team focus et organisé Trouver d'autres outils
-                pour simplifier la prise de note lors des interviews user En
-                tant qu'UX Designer: Mieux organiser un benchmark de façon à
-                passer moins de temps sur un site Approfondir le CPN "valeur de
-                Rewood" et "profil utilisateur"
+                <h4>Ce que j'améliorerais:</h4>
+                <p>
+                  En tant qu'interviewer: allonger la durée du test en fonction
+                  des testeurs (certains sont friands de remarques et c'est pour
+                  le meilleur pour la team UX). Faire un listing de tous les
+                  aléas pour être préparé (on prévoit des plans B ou C, mais
+                  c'est toujours un tout autre imprévu qui fait surface:(
+                </p>
+                <p>
+                  En tant qu'UX Designer: un atelier d'architecture de
+                  l'information type OOUX aurait été efficace
+                </p>
               </p>
               <p>
                 <h4>Ce que j'ai apprécié:</h4>
-                Porteur de projet dynamique, dans le partage et une
-                communication fluide Avoir carte blanche sur un projet qui part
-                de zéro Enrichissant en apprentissage UX
+                <p>
+                  Porteur de projet réactif, dans le partage et une
+                  communication fluide. Très bonne dynamique de groupe,
+                  feedbacks réguliers entre membres de l'équipe pour évoluer
+                  rapidement tout au long de la semaine
+                </p>
               </p>
             </div>
           </div>
           {/*Tester le proto*/}
-          <h2 className="titre2">Tester le prototype</h2>
+          <h2 className="titre2kok">Tester le prototype</h2>
           <div>
             <p>
               Je vous invite à essayer{" "}
               <a
                 className="proto"
-                href=" https://www.figma.com/proto/DIZv3Z30mEKPcaLwfx1fdQ/V1?node-id=15%3A1229&viewport=2320%2C2255%2C0.42364269495010376&scaling=scale-down"
+                href="https://www.figma.com/proto/zGL3S7AEdzQfDUsktEMXno/V1?node-id=21%3A752&viewport=2750%2C898%2C0.30000001192092896&scaling=scale-down"
                 target="_blank"
               >
                 ici le prototype utilisé
@@ -164,21 +176,10 @@ function Kokpit() {
             <p>
               <strong>Le parcours choisi:</strong>
               <p>
-                vous êtes un industriel, des palettes trainent dans votre
-                entrepôt. Vous désirez les mettre en vente sur le site Rewood,
-                vous ne maîtrisez pas vraiment les nouvelles technologies et
-                avez un planning chargé. Vous souhaitez vous débarasser de :
-                <strong>
-                  <ul>
-                    <li>37 palettes en pin</li>
-                    <li>en bon état général </li>
-                    <li>
-                      de mensurations (en cm): longueur 800 /largeur
-                      1000/hauteur 150
-                    </li>
-                    <li>l'acheteur devra venir retirer son achat</li>
-                  </ul>
-                </strong>
+                vous êtes une maman occupée avec 3 enfants dont un nourrisson.
+                Plutôt bio et éthique, vous cherchez à passer à la couche
+                lavable pour son côté sain et non toxique mais vous n'êtes pas
+                encore convaincue. Vous vous renseignez alors pour la location.
                 Comment procéderiez-vous?{" "}
               </p>
             </p>
@@ -190,7 +191,7 @@ function Kokpit() {
               cliquables.{" "}
             </p>
           </div>
-          <h2 className="titre2">Process Design Sprint</h2>
+          <h2 className="titre2kok">Process Design Sprint</h2>
           <p>
             Méthode initée par Google, basée sur le Design Thinking: c'est un
             processus de création rapide qui permet d'explorer rapidement un
@@ -199,69 +200,71 @@ function Kokpit() {
           </p>
           <div>
             <div id="test">
-              <h3 className="titre3">JOUR 1: COMPRENDRE/CHALLENGER/CREER</h3>
-              <h4 className="titre4">
+              <h3 className="titre3kok">JOUR 1: COMPRENDRE/CHALLENGER/CREER</h3>
+              <h4 className="titre4kok">
                 Questions/Réponses avec le porteur de projet
               </h4>
               <p>
-                Il est primordial de comprendre la perspective d'ensemble du
-                projet, à court et à long terme. Nous avons donc commencé par un
-                temps d'échange avec Morgane pour analyser les besoins et les
-                difficultés rencontrés, ainsi que l'environnement REWOOD.
+                Simon et Niclas nous exposent leur 2 problématiques principales:
               </p>
+              <p>- une offre comprise par l'utilisateur </p>
+              <p>- une émotion, un ressenti lors de la visite</p>
 
-              <h4 className="titre4">ETAPE 1: Test application mobile</h4>
+              <h4 className="titre4kok">ETAPE 1: Test application mobile</h4>
 
               <p>TEST D'EMPATHIE et VOTE CPN</p>
               <p>
-                Le test d'empathie permet de mieux comprendre les (futurs)
-                utilisateurs, leurs attentes et contraintes.
+                Le test d'empathie permet de mieux comprendre les utilisateurs,
+                leurs attentes et contraintes.
               </p>
               <p>
-                La plateforme REWOOD étant à ses débuts, nous avons testé le
-                site mobile d'un concurrent pour déceler les potentielles
-                problématiques rencontrées par l'utilisateur. Ces problématiques
-                ont été noté sous forme de "Comment pourrions-nous?" ou CPN (ex:
-                "Comment pourrions-nous améliorer la navigation"). Puis,nous
-                avons regroupé ces CPNS par catégorie, ce sont généralement les
-                mêmes remarques qui reviennent pour tous. Tous les axes ne
-                peuvent pas être travaillés sur un même sprint, nous avons donc
-                voté pour ceux qui nous paraissaient prioritaires pour notre
-                porteur de projet.
+                Nous avons testé le site actuel de KOKPIT,crée sous WordPress en
+                attendant une version définitive. Nous avons décelé quelques
+                problématiques, qui ont été noté sous forme de "Comment
+                pourrions-nous?" ou CPN (ex: "Comment pourrions-nous améliorer
+                la navigation"). Puis,nous avons regroupé ces CPNS par
+                catégorie, ce sont généralement les mêmes remarques qui
+                reviennent pour tous. Tous les axes ne peuvent pas être
+                travaillés sur un même sprint, nous avons donc voté pour ceux
+                qui nous paraissaient prioritaires pour notre porteur de projet.
               </p>
 
-              <img id="cpn" src={cpnRew} alt="cpn"></img>
+              <img id="cpn" src={cpnKok} alt="cpn"></img>
 
               <div>
-                <h4 className="titre4">
+                <h4 className="titre4kok">
                   Les challenges que nous avons adoptées
                 </h4>
                 <span>Comment pourrions-nous:</span>
                 <ul>
                   <li>
                     <strong>
-                      "rendre intuitif et rapide le parcours du vendeur ?""
+                      "hiérarchiser les informations, tout en diminuant la
+                      quantité de texte?"
                     </strong>
                   </li>
                   <li>
                     <strong>
-                      "mettre en avant les valeurs et engagements de REWOOD ?"
+                      "mettre en avant les valeurs de Kokpit avec l'émotion
+                      (enthousiasme et sérénité)?"
                     </strong>
                   </li>
                   <li>
                     <strong>
-                      "rendre visible et sympathique le profil utilisateur ?"
+                      "mettre de la pédagogie de façon à aider l'user à passer à
+                      l'action ?"
                     </strong>
                   </li>
                 </ul>
               </div>
-              <h4 className="titre4">
+              <h4 className="titre4kok">
                 ETAPE 2: Etablissement du PERSONA et du PARCOURS UTILISATEUR
               </h4>
               <div>
-                A partir des fiches caractéristiques fournies par Morgane, nous
-                avons défini un persona puis un parcours utilisateur tenant
-                compte du tunnel de conversion (avant/pendant/après).
+                Parmi plusieurs persona,Simon et Niclas nous ont proposé la
+                fiche persona "maman parfaite". A partir de là, nous avons crée
+                le "user flow"/parcours utilisateur en tenant compte du tunnel
+                de conversion (avant/pendant/après).
                 <p>
                   Basé sur ces éléments,chacun a imaginé individuellement un
                   parcours détaillant chaque action réalisée par l'utilisateur
@@ -271,17 +274,17 @@ function Kokpit() {
                   parcours.
                 </p>
               </div>
-              <img id="parcours" src={parcoursRew} alt="parcours"></img>
+              <img id="parcours" src={parcoursKok} alt="parcours"></img>
 
-              <h4 className="titre4">ETAPE 3: Réalisation d'un benchmark</h4>
+              <h4 className="titre4kok">ETAPE 3: Réalisation d'un benchmark</h4>
               <div>
                 Par le biais d'un benchmark, nous avons pioché des idées sur
-                d'autres sites (marketplace,e-commerce,eco-commerce) et partagé
-                des fonctionnalités intéressantes ou inspirantes.
+                d'autres sites concurrents ou non, et partagé des
+                fonctionnalités intéressantes ou inspirantes.
               </div>
-              <img id="bench" src={benchRew} alt="bench"></img>
+              <img id="bench" src={benchKok} alt="bench"></img>
 
-              <h4 className="titre4">
+              <h4 className="titre4kok">
                 ETAPE 4: Réalisation de croquis et vote
               </h4>
               <div>
@@ -289,11 +292,11 @@ function Kokpit() {
                 concrétisé individuellement sa vision en réalisant un parcours
                 précis sous forme de croquis détaillé du parcours entier.
               </div>
-              <img id="croquis" src={croquisRew} alt="croquis"></img>
+              <img id="croquis" src={croquisKok} alt="croquis"></img>
             </div>
-            <h3 className="titre3">JOUR 2: DECIDER</h3>
+            <h3 className="titre3kok">JOUR 2: DECIDER</h3>
 
-            <h4 className="titre4">
+            <h4 className="titre4kok">
               ETAPE 4 (suite): Réalisation de croquis et vote final
             </h4>
             <p>
@@ -301,10 +304,11 @@ function Kokpit() {
               groupe. Nous avons ensuite voté pour le croquis le plus adapté aux
               problématiques définies, auquel nous avons ajouté des parties
               complémentaires issues des autres croquis afin de compléter le
-              parcours final.
+              parcours final. Nous avons mixé les différents fonctionnalités en
+              un croquis par page pour le storyboarding.
             </p>
-            <img id="croquis" src={croquisVoteRew} alt="croquis"></img>
-            <h4 className="titre4">ETAPE 5: Organisation du prototypage</h4>
+            <img id="croquis" src={croquisVoteKok} alt="croquis"></img>
+            <h4 className="titre4kok">ETAPE 5: Organisation du prototypage</h4>
             <p>
               Chacun s'est attribué les tâches de prototypage qui lui plaisait,
               de façon égale en terme de charge de travail. Nous avons fait un
@@ -312,58 +316,56 @@ function Kokpit() {
               accordés sur le graphisme, la typo, etc.
             </p>
             <div>
-              <h3 className="titre3">JOUR 3: PROTOTYPER</h3>
-              <h4 className="titre4">ETAPE 6: Prototypage </h4>
+              <h3 className="titre3kok">JOUR 3: PROTOTYPER</h3>
+              <h4 className="titre4kok">ETAPE 6: Prototypage </h4>
               <p>
                 L'ensemble du parcours à tester est réalisé sur Figma, sur cette
                 seule journée.
               </p>
-              <img id="prototype" src={prototypeRew} alt="prototype"></img>
+              <img id="prototype" src={protoKok} alt="prototype"></img>
             </div>
-            <h3 className="titre3">JOUR 4: TESTER/VALIDER</h3>
+            <h3 className="titre3kok">JOUR 4: TESTER/VALIDER</h3>
             <div>
               <p>JOURNEE INTERVIEW UTILISATEURS </p>
               Les tests utilisateurs mettent en avant les points forts et les
               faiblesses de notre prototype. Par des tests réguliers, nous
               pouvons rapidement et facilement ré-ajuster notre version. Chaque
-              test dure env. 40 min. L'utilisateur a été invité à créer une
-              annonce pour mettre en vente un lot de palettes. Les données
-              correspondant au parcours testé lui ont été indiquées au fur et à
-              mesure de l'expérience.
+              test dure env. 40 min. L'utilisateur a été invité à surfer à
+              travers le parcours de façon à trouver des informations qui le
+              pousseraient à passer à la locations.Les données correspondant au
+              parcours testé lui ont été indiquées au fur et à mesure de
+              l'expérience.
             </div>
-            <h4 className="titre4">Prise de note de la team</h4>
-            <div className="setupColumn">
-              <div className="adjust50">
+            <h4 className="titre4kok">Prise de note de la team</h4>
+            <div>
+              <div>
                 Sur Trello, les autres UX Designers prennent simultanément des
                 notes de toutes les remarques (positives et négatives) de chaque
                 testeur. A la fin des tests, les remarques sont regroupées et
                 étudiées selon leur redondance.
               </div>
-              <img id="itw" src={itwRew} alt="itw"></img>
+              <img id="itw" src={itwKok} alt="itw"></img>
             </div>
-            <h4 className="titre4">Apprentissage</h4>
+            <h4 className="titre4kok">Apprentissage</h4>
             <div>
               Plusieurs points ont été fréquemment souligné par les 5
               utilisateurs:
               <ul>
                 <li>
-                  <strong>
-                    {" "}
-                    une transition trop rapide entre l'inscription et le
-                    remplissage de l'annonce
-                  </strong>
+                  <strong> un manque de clarté de l'offre</strong>
                 </li>
                 <li>
                   <strong>
                     {" "}
-                    ne comprend pas l'intérêt de mettre la photo en premier plan
+                    les informations prioritaires ne sont pas visibles
+                    rapidement
                   </strong>
                 </li>
                 <li>
-                  <strong> la pertinence des informations demandées</strong>
+                  <strong> un manque de modernité,pas d'émotion</strong>
                 </li>
               </ul>
-              <h4 className="titre4">
+              <h4 className="titre4kok">
                 Matrice de priorisation de la version 2
               </h4>
               <div className="setupColumn">
@@ -371,14 +373,14 @@ function Kokpit() {
                   Pour améliorer notre version, nous avons priorisé les
                   changement à effectuer sur Figma.Nous nous sommes centrés sur
                   2 critères:{" "}
-                  <strong>le bénéfice apporté à l'utilsateur</strong> et{" "}
+                  <strong>le bénéfice apporté à l'utilisateur</strong> et{" "}
                   <strong>la difficulté de la tâche à accomplir</strong>.
                   <p>
                     Les tâches figurants en haut à gauche de la matrice étant
                     prioritaire.Le code couleur est adopté pour répartir les
                     tâches de chacun
                   </p>
-                  <img id="matrice" src={matriceRew} alt="matrice"></img>
+                  <img id="matrice" src={matriceKok} alt="matrice"></img>
                 </div>
               </div>
             </div>

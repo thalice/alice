@@ -1,25 +1,25 @@
-#proLogo {
-  width: 60px;
-  height: 60px;
+#voyLogo {
+  width: 90px;
+  height: 90px;
   cursor: pointer;
   padding-bottom: 20px;
   padding-right: 20px;
 }
-#presentation {
-  margin-bottom: 100px;
-}
-#proBody {
+#voyBody {
   position: relative;
-  width: 100%;
+  width: 90%;
   padding: 40px;
   box-shadow: 5px 5px 5px gainsboro, -1em 0 0.4em gainsboro;
-  background-color: rgb(255, 221, 227);
+  background-color: beige;
 }
 #alignLogoBrand {
   display: flex;
   flex-direction: row;
 }
 
+#presentation {
+  margin-bottom: 100px;
+}
 #titreCentre {
   text-align: center;
 }
@@ -40,21 +40,20 @@
   font-style: italic;
   text-align: center;
 }
-.titrePro2 {
-  color: gray;
-
+.titre2voy {
+  color: rgb(90, 25, 25);
   padding-top: 20px;
 }
-.titrePro3 {
+.titre3voy {
   margin-top: 10px;
-  color: black;
+  color: orange;
 }
-.titrePro4 {
-  color: rgb(250, 93, 216);
+.titre4voy {
+  color: turquoise;
   padding-top: 20px;
 }
 
-.lienProto {
+.proto {
   color: blue;
 }
 
@@ -91,8 +90,8 @@
   flex-direction: row;
 }
 
-.projet-contextePro {
-  border: 3px solid rgb(251, 144, 237);
+.projet-contexteVoy {
+  border: 3px solid turquoise;
   border-radius: 3%;
   margin-right: 10px;
   padding: 10px;

@@ -1,34 +1,33 @@
 import React, { useState } from "react";
 import logoVoy from "./img/voy/logoVoy.PNG";
-import cpnRew from "./img/rewood/cpnRew.PNG";
-import parcoursRew from "./img/rewood/parcoursRew.png";
-import benchRew from "./img/rewood/benchRew.png";
-import croquisRew from "./img/rewood/croquisEnsRew.png";
-import croquisVoteRew from "./img/rewood/croquisVoteRew.png";
-import prototypeRew from "./img/rewood/figmaRew.png";
-import itwRew from "./img/rewood/itwRew.png";
-import matriceRew from "./img/rewood/matriceRew.png";
-import "./styles/rewood.css";
+import cpnVoy from "./img/voy/cpnVoy.png";
+import parcoursVoy from "./img/voy/parcoursVoy.png";
+import benchVoy from "./img/voy/benchVoy.png";
+import croquisVoy from "./img/voy/croquisVoy.png";
+import prototypeVoy from "./img/voy/protoVoy.png";
+import itwVoy from "./img/voy/itwVoy.png";
+import matriceVoy from "./img/voy/matriceVoy.png";
+import "./styles/voyagerz.css";
 
 function Rewood() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
     <>
-      {/*Intro*/}
       <div id="alignLogoBrand">
         {" "}
         <img
-          id="rewLogo"
+          id="voyLogo"
           src={logoVoy}
-          alt="logo Rewood"
+          alt="logo Voyagerz"
           onClick={() => setIsOpen(!isOpen)}
         ></img>{" "}
-        {/*Présentation*/}
         <h2 className="open" onClick={() => setIsOpen(!isOpen)}>
-          Voyagerz{" "}
+          Voyagerz
         </h2>{" "}
+        <div> EN COURS DE REDACTION</div>
       </div>
+      {/* 
       <div id="presentation">
         <p>
           " FEEL FIND FACE" ...voilà une application qui fait entrer le voyage
@@ -54,16 +53,16 @@ function Rewood() {
           </a>
         </div>
       </div>
-      {/*Debut*/}
+     
       {isOpen && (
-        <div id="jeffBody" onClick={() => setIsOpen(!isOpen)}>
+        <div id="voyBody" onClick={() => setIsOpen(!isOpen)}>
           <h1 id="titreCentre"> VOYAGERZ</h1>
 
           <span className="close">X</span>
-          {/*Projet et context*/}
-          <h2 className="titre2">Projet et contexte</h2>
+       
+          <h2 className="titre2voy">Projet et contexte</h2>
           <div id="projet">
-            <div className="projet-contexte">
+            <div className="projet-contexteVoy">
               <p>
                 <h4>Sujet: </h4>VOYAGERZ utilise les vidéos d'influenceurs
                 (voyageur ou non) pour inspirer la génération connectés(=c'est
@@ -85,7 +84,7 @@ function Rewood() {
                 travers une navigation dans les réseaux sociaux{" "}
               </p>
             </div>
-            <div className="projet-contexte">
+            <div className="projet-contexteVoy">
               <p>
                 <h4>Equipe:</h4>5 UX Designers à 4 mois de formation, en
                 collaboration avec Fouad Talbi et Abderahim Bilal- nos porteurs
@@ -128,8 +127,8 @@ function Rewood() {
               </p>
             </div>
           </div>
-          {/*Tester le proto*/}
-          <h2 className="titre2">Tester le prototype</h2>
+         
+          <h2 className="titre2voy">Tester le prototype</h2>
           <div>
             <p>
               Je vous invite à essayer{" "}
@@ -174,7 +173,7 @@ function Rewood() {
               cliquables.{" "}
             </p>
           </div>
-          <h2 className="titre2">Process Design Sprint</h2>
+          <h2 className="titre2voy">Process Design Sprint</h2>
           <p>
             Méthode initée par Google, basée sur le Design Thinking: c'est un
             processus de création rapide qui permet d'explorer rapidement un
@@ -183,8 +182,8 @@ function Rewood() {
           </p>
           <div>
             <div id="test">
-              <h3 className="titre3">JOUR 1: COMPRENDRE/CHALLENGER/CREER</h3>
-              <h4 className="titre4">
+              <h3 className="titre3voy">JOUR 1: COMPRENDRE/CHALLENGER/CREER</h3>
+              <h4 className="titre4voy">
                 Questions/Réponses avec le porteur de projet
               </h4>
               <p>
@@ -197,7 +196,7 @@ function Rewood() {
                 habitudes de navigation de la génération Y,Z.
               </p>
 
-              <h4 className="titre4">ETAPE 1: Test application mobile</h4>
+              <h4 className="titre4voy">ETAPE 1: Test application mobile</h4>
 
               <p>TEST D'EMPATHIE et VOTE CPN</p>
               <p>
@@ -218,10 +217,10 @@ function Rewood() {
                 qui nous paraissaient prioritaires pour nos porteurs de projet.
               </p>
 
-              <img id="cpn" src={cpnRew} alt="cpn"></img>
+              <img id="cpn" src={cpnVoy} alt="cpn"></img>
 
               <div>
-                <h4 className="titre4">
+                <h4 className="titre4voy">
                   Les challenges que nous avons adoptées
                 </h4>
                 <span>Comment pourrions-nous:</span>
@@ -242,7 +241,7 @@ function Rewood() {
                   </li>
                 </ul>
               </div>
-              <h4 className="titre4">
+              <h4 className="titre4voy">
                 ETAPE 2: Etablissement du PERSONA et du PARCOURS UTILISATEUR
               </h4>
               <div>
@@ -259,17 +258,17 @@ function Rewood() {
                   parcours.
                 </p>
               </div>
-              <img id="parcours" src={parcoursRew} alt="parcours"></img>
+              <img id="parcours" src={parcoursVoy} alt="parcours"></img>
 
-              <h4 className="titre4">ETAPE 3: Réalisation d'un benchmark</h4>
+              <h4 className="titre4voy">ETAPE 3: Réalisation d'un benchmark</h4>
               <div>
                 Par le biais d'un benchmark, nous avons pioché des idées sur
                 d'autres sites (achat d'expérience de voyage, tourguide, voyage)
                 et partagé des fonctionnalités intéressantes ou inspirantes.
               </div>
-              <img id="bench" src={benchRew} alt="bench"></img>
+              <img id="bench" src={benchVoy} alt="bench"></img>
 
-              <h4 className="titre4">
+              <h4 className="titre4voy">
                 ETAPE 4: Réalisation de croquis et vote
               </h4>
               <div>
@@ -279,11 +278,10 @@ function Rewood() {
                 croquis seront étudiés par nos collègues sans aucune explication
                 orale, il est donc important de les détailler au maximum.
               </div>
-              <img id="croquis" src={croquisRew} alt="croquis"></img>
             </div>
-            <h3 className="titre3">JOUR 2: DECIDER</h3>
+            <h3 className="titre3voy">JOUR 2: DECIDER</h3>
 
-            <h4 className="titre4">
+            <h4 className="titre4voy">
               ETAPE 4 (suite): Réalisation de croquis et vote final
             </h4>
             <p>
@@ -296,8 +294,8 @@ function Rewood() {
               utilisateur élaboré en ETAPE 2. Des parties complémentaires issues
               des autres croquis ont finalisé le parcours.
             </p>
-            <img id="croquis" src={croquisVoteRew} alt="croquis"></img>
-            <h4 className="titre4">ETAPE 5: Organisation du prototypage</h4>
+            <img id="croquis" src={croquisVoy} alt="croquis"></img>
+            <h4 className="titre4voy">ETAPE 5: Organisation du prototypage</h4>
             <p>
               Chacun s'est attribué les tâches de prototypage qui lui plaisait,
               de façon égale en terme de charge de travail. Nous avons fait un
@@ -305,15 +303,15 @@ function Rewood() {
               accordés sur le graphisme, la typo, etc.
             </p>
             <div>
-              <h3 className="titre3">JOUR 3: PROTOTYPER</h3>
-              <h4 className="titre4">ETAPE 6: Prototypage </h4>
+              <h3 className="titre3voy">JOUR 3: PROTOTYPER</h3>
+              <h4 className="titre4voy">ETAPE 6: Prototypage </h4>
               <p>
                 L'ensemble du parcours à tester est réalisé sur Figma, sur cette
                 seule journée.
               </p>
-              <img id="prototype" src={prototypeRew} alt="prototype"></img>
+              <img id="prototype" src={prototypeVoy} alt="prototype"></img>
             </div>
-            <h3 className="titre3">JOUR 4: TESTER/VALIDER</h3>
+            <h3 className="titre3voy">JOUR 4: TESTER/VALIDER</h3>
             <div>
               <p>JOURNEE INTERVIEW UTILISATEURS </p>
               Les tests utilisateurs mettent en avant les points forts et les
@@ -323,7 +321,7 @@ function Rewood() {
               vidéos d'influenceurs pour réserver une activité de parapente au
               Maroc.
             </div>
-            <h4 className="titre4">Prise de note de la team</h4>
+            <h4 className="titre4voy">Prise de note de la team</h4>
             <div className="setupColumn">
               <div className="adjust50">
                 Sur Trello, les autres UX Designers prennent simultanément des
@@ -331,9 +329,9 @@ function Rewood() {
                 testeur. A la fin des tests, les remarques sont regroupées et
                 étudiées selon leur redondance.
               </div>
-              <img id="itw" src={itwRew} alt="itw"></img>
+              <img id="itw" src={itwVoy} alt="itw"></img>
             </div>
-            <h4 className="titre4">Apprentissage</h4>
+            <h4 className="titre4voy">Apprentissage</h4>
             <div>
               Plusieurs points ont été fréquemment souligné par les 5
               utilisateurs:
@@ -355,7 +353,7 @@ function Rewood() {
                   <strong> la pertinence des informations demandées</strong>
                 </li>
               </ul>
-              <h4 className="titre4">
+              <h4 className="titre4voy">
                 Matrice de priorisation de la version 2
               </h4>
               <div className="setupColumn">
@@ -370,13 +368,14 @@ function Rewood() {
                     prioritaire.Le code couleur est adopté pour répartir les
                     tâches de chacun
                   </p>
-                  <img id="matrice" src={matriceRew} alt="matrice"></img>
+                  <img id="matrice" src={matriceVoy} alt="matrice"></img>
                 </div>
               </div>
             </div>
           </div>
         </div>
       )}
+      */}
     </>
   );
 }

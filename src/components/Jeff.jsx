@@ -28,9 +28,9 @@ function Jeff() {
         <div id="jeffBody" onClick={() => setIsOpen(!isOpen)}>
           <h1 id="titreCentre"> Jeff de Bruges</h1>
           <span className="close">X</span>
-          <h2 className="titre2">Projet et contexte</h2>
+          <h2 className="titre2jeff">Projet et contexte</h2>
           <div id="projet">
-            <div className="projet-contexte">
+            <div className="projet-contexteJeff">
               <p>
                 <h4>Sujet: </h4>Jeff de Bruges,enseigne d'industrie
                 agroalimentaire commercialisant confiseries et chocolats
@@ -47,7 +47,7 @@ function Jeff() {
                 chocolat en ligne{" "}
               </p>
             </div>
-            <div className="projet-contexte">
+            <div className="projet-contexteJeff">
               <p>
                 <h4>Equipe:</h4> 4 apprenants UX Designers à 2 mois de formation
               </p>
@@ -85,7 +85,7 @@ function Jeff() {
               </p>
             </div>
           </div>
-          <h2 className="titre2">Tester le prototype</h2>
+          <h2 className="titre2jeff">Tester le prototype</h2>
           <div>
             <p>
               Je vous invite à essayer{" "}
@@ -120,10 +120,10 @@ function Jeff() {
               passion/citron de Murcie/cerise Amarena{" "}
             </p>
           </div>
-          <h2 className="titre2">Process Design Sprint</h2>
+          <h2 className="titre2jeff">Process Design Sprint</h2>
           <div>
-            <h3 className="titre3">JOUR 1: COMPRENDRE/CHALLENGER</h3>
-            <h4 className="titre4">Test application mobile</h4>
+            <h3 className="titre3jeff">JOUR 1: COMPRENDRE/CHALLENGER</h3>
+            <h4 className="titre4jeff">Test application mobile</h4>
 
             <div className="setupColumn">
               <div className="adjust50">
@@ -141,7 +141,9 @@ function Jeff() {
               <img id="cpn" src={cpnJeff} alt="cpn"></img>
             </div>
             <div>
-              <h4 className="titre4">Les challenges que nous avons adoptées</h4>
+              <h4 className="titre4jeff">
+                Les challenges que nous avons adoptées
+              </h4>
               <span>Comment pourrions-nous:</span>
               <ul>
                 <li>
@@ -155,7 +157,9 @@ function Jeff() {
                 </li>
               </ul>
             </div>
-            <h4 className="titre4">Conception parcours utilisateur et vote</h4>
+            <h4 className="titre4jeff">
+              Conception parcours utilisateur et vote
+            </h4>
             <div className="setupColumn">
               <img id="parcours" src={parcoursJeff} alt="parcours"></img>
               <div className="adjust50">
@@ -171,14 +175,14 @@ function Jeff() {
               </div>
             </div>
 
-            <h3 className="titre3">JOUR 2: CREER/DIVERGER et DECIDER</h3>
-            <h4 className="titre4">Réalisation d'un benchmark</h4>
+            <h3 className="titre3jeff">JOUR 2: CREER/DIVERGER et DECIDER</h3>
+            <h4 className="titre4jeff">Réalisation d'un benchmark</h4>
             <div>
               Par le biais d'un benchmark, nous sommes allées piocher des idées
               sur d'autres sites (chocolatier,café, pâtissier,etc) et partagé
               des fonctionnalités intéréssantes ou inspirantes.
             </div>
-            <h4 className="titre4">Réalisation de croquis et vote</h4>
+            <h4 className="titre4jeff">Réalisation de croquis et vote</h4>
             <div className="setupColumn">
               <div className="adjust50">
                 A partir du parcours utilisteur et du benchmark, chacun a
@@ -201,8 +205,8 @@ function Jeff() {
               </i>
             </p>
 
-            <h3 className="titre3">JOUR 3: PROTOTYPER</h3>
-            <h4 className="titre4">Répartion des tâches et prototypage</h4>
+            <h3 className="titre3jeff">JOUR 3: PROTOTYPER</h3>
+            <h4 className="titre4jeff">Répartion des tâches et prototypage</h4>
             <p>
               L'ensemble du parcours à tester est réalisé sur Figma, sur cette
               seule journée.
@@ -218,7 +222,7 @@ function Jeff() {
                 avant le test.{" "}
               </i>
             </p>
-            <h3 className="titre3">JOUR 4: TESTER/VALIDER</h3>
+            <h3 className="titre3jeff">JOUR 4: TESTER/VALIDER</h3>
             <div>
               Les tests utilisateurs mettent en avant les points forts et les
               faiblesses de notre prototype. Par des tests réguliers, nous
@@ -239,7 +243,7 @@ function Jeff() {
                 le parcours".
               </i>
             </p>
-            <h4 className="titre4">Feedbacks équipe</h4>
+            <h4 className="titre4jeff">Feedbacks équipe</h4>
             <div className="setupColumn">
               <div className="adjust50">
                 Sur Trello, les autres UX Designers prennent simultanément des
@@ -250,7 +254,7 @@ function Jeff() {
               <img id="itw" src={itwJeff} alt="itw"></img>
             </div>
 
-            <h4 className="titre4">Apprentissage</h4>
+            <h4 className="titre4jeff">Apprentissage</h4>
             <div>
               Plusieurs points ont été fréquemment souligné par les 5
               utilisateurs:
@@ -274,7 +278,7 @@ function Jeff() {
                   <strong> Un wording pas toujours explicite</strong>
                 </li>
               </ul>
-              <h4 className="titre4">
+              <h4 className="titre4jeff">
                 Matrice de priorisation de la version 2
               </h4>
               <div className="setupColumn">

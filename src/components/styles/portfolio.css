@@ -8,6 +8,11 @@
   margin-top: 100px;
 }
 
+#remarquesProto {
+  border: 2px solid black;
+  padding: 10px;
+  margin-bottom: 100px;
+}
 #logo {
   height: 70px;
   width: 70px;

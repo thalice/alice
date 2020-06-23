@@ -31,7 +31,7 @@ function Rewood() {
       </div>
       <div id="presentation">
         <p>
-          aide les entreprises à revaloriser le bois de façon écologique et
+          Aide les entreprises à revaloriser le bois de façon écologique et
           économique, via une marketplace pour les professionnels souhaitant
           revendre à d'autres professionnels.
         </p>
@@ -54,9 +54,11 @@ function Rewood() {
           </a>
         </div>
       </div>
+
       {/*Debut*/}
+
       {isOpen && (
-        <div id="jeffBody" onClick={() => setIsOpen(!isOpen)}>
+        <div id="rewBody" onClick={() => setIsOpen(!isOpen)}>
           <h1 id="titreCentre"> Rewood</h1>
           <i id="infoClose">
             Pour fermer la fenêtre,cliquer sur la croix rouge ou n'importe où
@@ -119,18 +121,33 @@ function Rewood() {
                 </li>
               </ul>
               <p>
-                <h4>Ce que j'améliorerais:</h4>En tant que facilitateur: Trouver
-                comment garder la team focus et organisé Trouver d'autres outils
-                pour simplifier la prise de note lors des interviews user En
-                tant qu'UX Designer: Mieux organiser un benchmark de façon à
-                passer moins de temps sur un site Approfondir le CPN "valeur de
-                Rewood" et "profil utilisateur"
+                <h4>Ce que j'améliorerais:</h4>
+                <h5>En tant que facilitateur:</h5>
+                <p>- Trouver comment garder la team focus et organisé</p>{" "}
+                <p>
+                  - Trouver d'autres outils pour simplifier la prise de note
+                  lors des interviews user
+                </p>
+                <h5>En tant qu'UX Designer:</h5>
+                <p>
+                  - Mieux organiser un benchmark de façon à passer moins de
+                  temps sur un site
+                </p>
+                <p>
+                  - Approfondir le CPN "valeur de Rewood" et "profil
+                  utilisateur"
+                </p>
               </p>
               <p>
                 <h4>Ce que j'ai apprécié:</h4>
-                Porteur de projet dynamique, dans le partage et une
-                communication fluide Avoir carte blanche sur un projet qui part
-                de zéro Enrichissant en apprentissage UX
+                <p>
+                  - Porteur de projet dynamique, dans le partage et une
+                  communication fluide{" "}
+                </p>
+                <p>
+                  - Avoir carte blanche sur un projet qui part de zéro
+                  Enrichissant en apprentissage UX
+                </p>
               </p>
             </div>
           </div>
@@ -140,7 +157,7 @@ function Rewood() {
             <p>
               Je vous invite à essayer{" "}
               <a
-                className="proto"
+                className="lienProto"
                 href=" https://www.figma.com/proto/DIZv3Z30mEKPcaLwfx1fdQ/V1?node-id=15%3A1229&viewport=2320%2C2255%2C0.42364269495010376&scaling=scale-down"
                 target="_blank"
               >
@@ -152,7 +169,7 @@ function Rewood() {
               Au bout de 5 jours, le temps nous a évidemment manqué pour
               élaborer une version 2. J'ai donc prototypé{" "}
               <a
-                className="proto"
+                className="lienProto"
                 href="
                 https://www.figma.com/proto/2RBp6amJim29i15VpWpQlI/Alice?node-id=86%3A2576&viewport=-3852%2C5130%2C0.5&scaling=scale-down"
                 target="_blank"
@@ -332,8 +349,8 @@ function Rewood() {
               mesure de l'expérience.
             </div>
             <h4 className="titre4">Prise de note de la team</h4>
-            <div className="setupColumn">
-              <div className="adjust50">
+            <div>
+              <div>
                 Sur Trello, les autres UX Designers prennent simultanément des
                 notes de toutes les remarques (positives et négatives) de chaque
                 testeur. A la fin des tests, les remarques sont regroupées et

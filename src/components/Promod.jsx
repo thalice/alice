@@ -32,7 +32,7 @@ function Promod() {
           <span className="close">X</span>
           <h2 className="titrePro2">Projet et contexte</h2>
           <div id="projet">
-            <div className="projet-contexte">
+            <div className="projet-contextePro">
               <p>
                 <h4>Sujet: </h4>Promod, enseigne de vente en prêt-à-porter
                 féminin,avec des points de vente internationaux
@@ -49,7 +49,7 @@ function Promod() {
                 parcours utilisateur de l'application mobile{" "}
               </p>
             </div>
-            <div className="projet-contexte">
+            <div className="projet-contextePro">
               <p>
                 <h4>Equipe:</h4> 5 apprenants UX Designers à 2 semaines de
                 formation
@@ -266,7 +266,7 @@ function Promod() {
               >
                 ici le prototype utilisé
               </a>{" "}
-              (pas de compte nécessaire).
+              .
             </p>
             <strong>Le parcours choisi:</strong> vous vous rendez sur votre
             application pour commander une jupe sombre et découvrez votre

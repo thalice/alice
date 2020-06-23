@@ -5,16 +5,21 @@
   padding-bottom: 20px;
   padding-right: 20px;
 }
+#presentation {
+  margin-bottom: 100px;
+}
 #jeffBody {
   position: relative;
-  /*border: 5px solid rgb(34, 116, 107);*/
-  width: 90%;
+  width: 100%;
   padding: 40px;
+  box-shadow: 5px 5px 5px gainsboro, -1em 0 0.4em gainsboro;
+  background-color: rgb(205, 248, 253);
 }
 #alignLogoBrand {
   display: flex;
   flex-direction: row;
 }
+
 #titreCentre {
   text-align: center;
 }
@@ -30,44 +35,53 @@
   padding: 20px;
   cursor: pointer;
 }
-.titre2 {
-  color: rgb(34, 116, 107);
+
+.infoClose {
+  font-style: italic;
+  text-align: center;
+}
+.titre2jeff {
+  color: rgb(39, 26, 26);
   padding-top: 20px;
 }
-.titre3 {
+.titre3jeff {
   margin-top: 10px;
-  color: rgb(121, 46, 46);
+  color: rgb(73, 57, 54);
 }
-.titre4 {
-  color: turquoise;
+.titre4jeff {
+  color: rgb(37, 177, 163);
   padding-top: 20px;
 }
 
-.proto {
+.lienProto {
   color: blue;
 }
-#cpn {
-  width: 60%;
-  height: auto;
-}
+
 #parcours {
-  width: 60%;
+  width: 100%;
   height: auto;
   margin-bottom: 50px;
 }
+
+#bench {
+  width: 100%;
+  height: auto;
+  margin-top: 50px;
+}
+
 #croquis {
-  width: 60%;
+  width: 100%;
   height: auto;
   padding-bottom: 10px;
 }
 #itw {
-  width: 60%;
+  width: 100%;
   height: auto;
   padding-top: 10px;
 }
 
 #matrice {
-  width: 60%;
+  width: 100%;
   height: auto;
 }
 
@@ -76,20 +90,17 @@
   flex-direction: row;
 }
 
-.projet-contexte {
+.projet-contexteJeff {
   border: 3px solid rgb(93, 27, 27);
   border-radius: 3%;
   margin-right: 10px;
   padding: 10px;
 }
 
-.setupColumn {
-  display: flex;
-  flex-direction: row;
+#cpn {
+  width: 100%;
 }
 
-.adjust50 {
-  width: 40%;
-  height: auto;
-  padding: 10px;
+#prototype {
+  width: 100%;
 }
