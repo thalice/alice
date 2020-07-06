@@ -24,9 +24,9 @@ function Voyagerz() {
         ></img>{" "}
         <h2 className="open" onClick={() => setIsOpen(!isOpen)}>
           Voyagerz
+          <p>EN COURS DE REDACTION</p>
         </h2>{" "}
       </div>
-
       <div id="presentation">
         <p>
           " FEEL FIND FACE" ...voilà une application qui fait entrer le voyage
@@ -39,18 +39,6 @@ function Voyagerz() {
         <p>
           <strong>Type de projet:</strong>création d'un parcours utilisateur
         </p>
-
-        <div>
-          <button onClick={() => setIsOpen(!isOpen)}>Etude de cas</button>
-          <a
-            href="
-            https://www.figma.com/proto/2RBp6amJim29i15VpWpQlI/Alice?node-id=86%3A2576&viewport=-3852%2C5130%2C0.5&scaling=scale-down"
-            target="_blank"
-          >
-            {" "}
-            <input type="button" value="Tester mon prototype"></input>
-          </a>
-        </div>
       </div>
 
       {isOpen && (
