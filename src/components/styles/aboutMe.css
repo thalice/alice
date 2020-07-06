@@ -1,63 +1,12 @@
-#wip {
-  margin: 300px;
-}
-
-#bodyAboutMe {
-  margin-top: 100px;
-  display: flex;
-  border: 2px solid red;
-  justify-content: space-around;
-}
-
-#columnCv {
-  border: 2px solid green;
-}
-
-#cv {
-  align-items: center;
-  border: 2px solid black;
-  margin-bottom: 10px;
-  width: 600px;
-}
-
-.card {
-  width: 50%;
-}
-
-/*#list {
+#mainBloc {
+  margin: 200px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding-bottom: 40px;
-  padding-left: 100px;
-  padding-right: 100px;
-}*/
-
-#expert {
-  background-color: yellow;
-  color: black;
 }
 
-#metho {
-  background-color: yellow;
-  color: black;
-}
-
-#outil {
-  background-color: yellow;
-  color: black;
-}
-#soft {
-  background-color: yellow;
-  color: black;
-}
-#fontChange {
-  font-family: "Waiting for the Sunrise", cursive;
-  font-size: 2em;
-}
-
-.cardByTwo {
-  display: flex;
-  flex-direction: column;
-  border: 2px solid blue;
+.bloc {
+  border: 10px solid white;
+  background-color: rgb(56, 188, 250);
+  padding: 20px;
 }

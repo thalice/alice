@@ -9,11 +9,61 @@ import "./styles/aboutMe.css";
 
 function AboutMe() {
   return (
-    <div id="wip">
-      WORK IN PROGRESS WORK IN PROGRESS WORK IN PROGRESS WORK IN PROGRESS WORK
-      IN PROGRESS WORK IN PROGRESSWORK IN PROGRESS WORK IN PROGRESS WORK IN
-      PROGRESS WORK IN PROGRESS WORK IN PROGRESS WORK IN PROGRESS WORK IN
-      PROGRESS WORK IN PROGRESS
+    <div id="mainBloc">
+      <div className="blocUn">
+        <div className="bloc">
+          <h1>SAVOIR-FAIRE</h1>
+
+          <p>PERSONA carte empathie </p>
+          <p>PARCOURS UTILISATEUR roadmap</p>
+          <p>PROTOTYPAGE responsive</p>
+          <p>TEST UTILISATEUR recrutement,guide interview </p>
+          <p>ACCESSIBILITE normes rgaa</p>
+        </div>
+
+        <div className="bloc">
+          <h1>METHODOLOGIE</h1>
+
+          <p>
+            DESIGN SPRINT Méthode initée par Google, pour une création rapide
+            d'un maximum d'idées{" "}
+          </p>
+          <p>FACILITATION Animation d'ateliers d'intelligence collective</p>
+          <p>DESIGN THINKING </p>
+          <p>BENCHMARK</p>
+        </div>
+      </div>
+
+      <div className="blocUn">
+        <div className="bloc">
+          <h1>SAVOIR-ETRE</h1>
+
+          <p> PEDAGOGIE enseignant l'anglais aux 4 à 14ans</p>
+          <p>
+            {" "}
+            ADAPTABILITE transmis par le voyage et divers secteurs de travail,en
+            équipe ou solo{" "}
+          </p>
+          <p>INITIATIVE + ORGANISATION chargé d'évenementiel associatif </p>
+          <p>
+            ESPRIT DE SYNTHESE+ CURIOSITE vision d'ensemble pour répondre à une
+            problématique...c'est pour ça que je suis UX designer!
+          </p>
+          <p>
+            INTROSPECTION,DISCIPLINE et RESILIENCE 3 en 1 nécéssaire pour la
+            gestion du stress
+          </p>
+        </div>
+
+        <div className="bloc">
+          <h1>OUTILS</h1>
+
+          <p>PROTOTYPAGE Figma</p>
+          <p>TEST UTILISATEUR Zoom,Google Meet, Whereby,Jitsi </p>
+          <p>ANALYSE Google Analytics,Hotjar, Optimizely</p>
+          <p>COMMUNICATION Discord,Slack,G Suite</p>
+        </div>
+      </div>
     </div>
   );
 }

@@ -10,7 +10,7 @@
   width: 90%;
   padding: 40px;
   box-shadow: 5px 5px 5px gainsboro, -1em 0 0.4em gainsboro;
-  background-color: beige;
+  background-color: rgb(255, 197, 90);
 }
 #alignLogoBrand {
   display: flex;

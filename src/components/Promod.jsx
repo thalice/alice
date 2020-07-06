@@ -26,6 +26,16 @@ function Promod() {
           Promod
         </h2>{" "}
       </div>
+      <div>
+        <button onClick={() => setIsOpen(!isOpen)}>Etude de cas</button>
+        <a
+          href="https://www.figma.com/proto/c4LZahY9Gtc4FmQyi6EKn6/AlicePromod?scaling=min-zoom&node-id=12%3A1523"
+          target="_blank"
+        >
+          {" "}
+          <input type="button" value="Tester mon prototype"></input>
+        </a>
+      </div>
       {isOpen && (
         <div id="proBody" onClick={() => setIsOpen(!isOpen)}>
           <h1 id="titreCentre"> Promod</h1>

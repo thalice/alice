@@ -9,7 +9,7 @@ import itwVoy from "./img/voy/itwVoy.png";
 import matriceVoy from "./img/voy/matriceVoy.png";
 import "./styles/voyagerz.css";
 
-function Rewood() {
+function Voyagerz() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
@@ -25,9 +25,8 @@ function Rewood() {
         <h2 className="open" onClick={() => setIsOpen(!isOpen)}>
           Voyagerz
         </h2>{" "}
-        <div> EN COURS DE REDACTION</div>
       </div>
-      {/* 
+
       <div id="presentation">
         <p>
           " FEEL FIND FACE" ...voilà une application qui fait entrer le voyage
@@ -53,13 +52,13 @@ function Rewood() {
           </a>
         </div>
       </div>
-     
+
       {isOpen && (
         <div id="voyBody" onClick={() => setIsOpen(!isOpen)}>
           <h1 id="titreCentre"> VOYAGERZ</h1>
 
           <span className="close">X</span>
-       
+
           <h2 className="titre2voy">Projet et contexte</h2>
           <div id="projet">
             <div className="projet-contexteVoy">
@@ -127,7 +126,7 @@ function Rewood() {
               </p>
             </div>
           </div>
-         
+
           <h2 className="titre2voy">Tester le prototype</h2>
           <div>
             <p>
@@ -375,9 +374,8 @@ function Rewood() {
           </div>
         </div>
       )}
-      */}
     </>
   );
 }
 
-export default Rewood;
+export default Voyagerz;

@@ -23,17 +23,15 @@ function Portfolio() {
             <p>
               - Ils sont donc partiellement fonctionnels: ils permettent de se
               faire une vision rapide du parcours utilisateur qui doit être
-              testé{" "}
+              testé. Les zones cliquables apparaissent en surlignement bleu.{" "}
             </p>
             <p>
-              - Le graphisme n'est donc pas pris en compte. La composante UI est
-              laissé de côté par manque de temps
+              - Le graphisme n'est pas pris en compte. L'UI( interface
+              utilisateur) est laissé de côté dans le process UX.
             </p>{" "}
           </strong>
-          Seules les fonctions qui répondent au parcours sont
-          cliquables.N'hésitez pas à consulter l'étude de cas dans la zone
-          "Tester le prototype" pour connaître le parcours que nous cherchons à
-          tester{" "}
+          N'hésitez pas à consulter l'étude de cas dans la zone "Tester le
+          prototype" pour connaître le parcours que nous cherchons à tester{" "}
         </p>{" "}
         <Rewood />
         <Kokpit />
@@ -43,8 +41,7 @@ function Portfolio() {
         <h1 className="titre1"> CAS PRATIQUES</h1>
         <p>Exercices pratiques en cours de formation.</p>
 
-        <Jeff id="jeffPadding" />
-
+        <Jeff />
         <Promod />
       </div>
     </div>

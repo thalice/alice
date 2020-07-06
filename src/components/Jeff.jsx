@@ -24,6 +24,16 @@ function Jeff() {
           Jeff de Bruges
         </h2>{" "}
       </div>
+      <div>
+        <button onClick={() => setIsOpen(!isOpen)}>Etude de cas</button>
+        <a
+          href="https://www.figma.com/proto/DwXX7H85PlQJvrXfdIm4PB/Alice?node-id=0%3A1&scaling=scale-down"
+          target="_blank"
+        >
+          {" "}
+          <input type="button" value="Tester mon prototype"></input>
+        </a>
+      </div>
       {isOpen && (
         <div id="jeffBody" onClick={() => setIsOpen(!isOpen)}>
           <h1 id="titreCentre"> Jeff de Bruges</h1>
