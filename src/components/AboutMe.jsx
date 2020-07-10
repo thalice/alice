@@ -1,68 +1,171 @@
 import React from "react";
-import imageCv from "./img/cv.png";
-import expertise from "./img/aboutMe/expertise.png";
-import outils from "./img/aboutMe/outils.png";
-import methodo from "./img/aboutMe/methodo.png";
-import soft from "./img/aboutMe/soft.png";
+import pedagogie from "./img/icons/pedagogie.svg";
+import flexibilite from "./img/icons/flex.png";
+import initiative from "./img/icons/initiative.svg";
+import curiosite from "./img/icons/curio.svg";
+import resilience from "./img/icons/resili.svg";
+import persona from "./img/icons/empathyTest.svg";
+import parcours from "./img/icons/parcours.png";
+import proto from "./img/icons/proto.svg";
+import test from "./img/icons/test.svg";
+import accessibilite from "./img/icons/access.svg";
+import sprint from "./img/icons/sprint.svg";
+import facilitation from "./img/icons/facilitation.svg";
+import thinking from "./img/icons/thinking.svg";
+import bench from "./img/icons/bench.png";
 
 import "./styles/aboutMe.css";
 
 function AboutMe() {
   return (
     <div id="mainBloc">
-      <div className="blocUn">
-        <div className="bloc">
-          <h1>SAVOIR-FAIRE</h1>
+      <div className="bloc">
+        <h1 className="titreCaracteristique">SAVOIR-ETRE</h1>
 
-          <p>PERSONA carte empathie </p>
-          <p>PARCOURS UTILISATEUR roadmap</p>
-          <p>PROTOTYPAGE responsive</p>
-          <p>TEST UTILISATEUR recrutement,guide interview </p>
-          <p>ACCESSIBILITE normes rgaa</p>
+        <div className="blocText">
+          <div className="titreIcone">
+            <img className="icone" src={pedagogie} alt="icone pedagogie"></img>
+            <h2>PEDAGOGIE</h2>
+            <p>enseignant l'anglais aux 4 à 14ans</p>
+          </div>
+
+          <div className="titreIcone">
+            <img
+              className="icone"
+              src={flexibilite}
+              alt="icone flexibility"
+            ></img>
+            <h2> FEXIBILITE</h2>
+
+            <p>
+              {" "}
+              transmis par le voyage et divers secteurs de travail,en équipe ou
+              solo{" "}
+            </p>
+          </div>
+
+          <div className="titreIcone">
+            <img
+              className="icone"
+              src={initiative}
+              alt="icone initiative"
+            ></img>
+            <h3> INITIATIVE, ORGANISATION </h3>
+
+            <p>chargé d'évenementiel associatif </p>
+          </div>
+
+          <div className="titreIcone">
+            <img className="icone" src={curiosite} alt="icone curiosite"></img>
+            <h3> ESPRIT DE SYNTHESE, CURIOSITE</h3>
+            <p>
+              vision d'ensemble pour répondre à une problématique...c'est pour
+              ça que je suis UX designer!
+            </p>
+          </div>
+
+          <div className="titreIcone">
+            <img
+              className="icone"
+              src={resilience}
+              alt="icone resilience"
+            ></img>
+            <h3> INTROSPECTION,DISCIPLINE et RESILIENCE </h3>
+            <p>Voilà un 3 en 1 nécéssaire pour la gestion du stress</p>
+          </div>
         </div>
+      </div>
+      <div className="blocJaune">
+        <h1 className="titreCaracteristique">SAVOIR-FAIRE</h1>
 
-        <div className="bloc">
-          <h1>METHODOLOGIE</h1>
+        {/*SAVOIR-FAIRE*/}
+        <div className="blocText">
+          <div className="titreIcone">
+            <img className="icone" src={persona} alt="icone pedagogie"></img>
+            <h2>PERSONA</h2>
+            <p>carte empathie</p>
+          </div>
 
-          <p>
-            DESIGN SPRINT Méthode initée par Google, pour une création rapide
-            d'un maximum d'idées{" "}
-          </p>
-          <p>FACILITATION Animation d'ateliers d'intelligence collective</p>
-          <p>DESIGN THINKING </p>
-          <p>BENCHMARK</p>
+          <div className="titreIcone">
+            <img className="icone" src={parcours} alt="icone flexibility"></img>
+            <h3> PARCOURS UTILISATEUR</h3>
+
+            <p>user flow, roadmap, architecture de l'info</p>
+          </div>
+
+          <div className="titreIcone">
+            <img className="icone" src={proto} alt="icone initiative"></img>
+            <h2> PROTOTYPAGE</h2>
+
+            <p>design system, responsive</p>
+          </div>
+
+          <div className="titreIcone">
+            <img className="icone" src={test} alt="icone curiosite"></img>
+            <h3> TEST UTILISATEUR</h3>
+            <p>recrutement,guide interview</p>
+          </div>
+
+          <div className="titreIcone">
+            <img
+              className="icone"
+              src={accessibilite}
+              alt="icone resilience"
+            ></img>
+            <h2> ACCESSIBILITE</h2>
+            <p>normes RGAA</p>
+          </div>
         </div>
       </div>
 
-      <div className="blocUn">
-        <div className="bloc">
-          <h1>SAVOIR-ETRE</h1>
+      {/*METHODO*/}
+      <div className="bloc">
+        <h1 className="titreCaracteristique">METHODOLOGIES</h1>
 
-          <p> PEDAGOGIE enseignant l'anglais aux 4 à 14ans</p>
-          <p>
-            {" "}
-            ADAPTABILITE transmis par le voyage et divers secteurs de travail,en
-            équipe ou solo{" "}
-          </p>
-          <p>INITIATIVE + ORGANISATION chargé d'évenementiel associatif </p>
-          <p>
-            ESPRIT DE SYNTHESE+ CURIOSITE vision d'ensemble pour répondre à une
-            problématique...c'est pour ça que je suis UX designer!
-          </p>
-          <p>
-            INTROSPECTION,DISCIPLINE et RESILIENCE 3 en 1 nécéssaire pour la
-            gestion du stress
-          </p>
+        <div className="blocText">
+          <div className="titreIcone">
+            <img className="icone" src={sprint} alt="icone pedagogie"></img>
+            <h3> DESIGN SPRINT</h3>
+            <p>
+              Méthode initée par Google, pour une création rapide d'un maximum
+              d'idées
+            </p>
+          </div>
+
+          <div className="titreIcone">
+            <img
+              className="icone"
+              src={facilitation}
+              alt="icone flexibility"
+            ></img>
+            <h2> FACILITATION </h2>
+
+            <p>Animation d'ateliers d'intelligence collective</p>
+          </div>
+
+          <div className="titreIcone">
+            <img className="icone" src={thinking} alt="icone initiative"></img>
+            <h3> DESIGN THINKING</h3>
+
+            <p>Atelier de créativite</p>
+          </div>
+
+          <div className="titreIcone">
+            <img className="icone" src={bench} alt="icone curiosite"></img>
+            <h2> BENCHMARK</h2>
+            <p>Veille sur des autres sites et appli pour inspiration</p>
+          </div>
         </div>
+      </div>
 
-        <div className="bloc">
-          <h1>OUTILS</h1>
+      <div className="blocJaune">
+        <h1>OUTILS</h1>
 
-          <p>PROTOTYPAGE Figma</p>
-          <p>TEST UTILISATEUR Zoom,Google Meet, Whereby,Jitsi </p>
-          <p>ANALYSE Google Analytics,Hotjar, Optimizely</p>
-          <p>COMMUNICATION Discord,Slack,G Suite</p>
-        </div>
+        <p>PROTOTYPAGE Figma</p>
+        <p>TEST UTILISATEUR Zoom,Google Meet, Whereby,Jitsi </p>
+        <p>ANALYSE Google Analytics,Hotjar, Optimizely</p>
+        <p>COLLABORATIF Miro,Trello</p>
+        <p>COMMUNICATION Discord,Slack,G Suite</p>
       </div>
     </div>
   );

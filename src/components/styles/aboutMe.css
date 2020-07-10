@@ -1,7 +1,5 @@
 #mainBloc {
   margin: 200px;
-  display: flex;
-  flex-direction: row;
   justify-content: space-between;
 }
 
@@ -9,4 +7,28 @@
   border: 10px solid white;
   background-color: rgb(112, 177, 218);
   padding: 20px;
+}
+
+.blocJaune {
+  border: 10px solid white;
+  background-color: rgb(251, 251, 106);
+  padding: 20px;
+}
+.blocText {
+  display: flex;
+  flex-direction: row;
+}
+.icone {
+  width: 80px;
+  height: 80px;
+}
+
+.titreCaracteristique {
+  text-align: center;
+}
+.titreIcone {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px;
 }
