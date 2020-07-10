@@ -1,27 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0810a3478fd952a106684a5bdf428036",
+    "revision": "bfa11ec0f6d48fe469d0048e63d0cb82",
     "url": "/alice/index.html"
   },
   {
-    "revision": "e4993480cf2b019877ad",
-    "url": "/alice/static/css/main.7888963b.chunk.css"
+    "revision": "973d3a46aa7e9ee1cb8a",
+    "url": "/alice/static/css/main.8b00e87e.chunk.css"
   },
   {
-    "revision": "3f27bd3912a25b2b6769",
-    "url": "/alice/static/js/2.720bbc7d.chunk.js"
+    "revision": "f42b4bca5f60b01e85dc",
+    "url": "/alice/static/js/2.82f11394.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/alice/static/js/2.720bbc7d.chunk.js.LICENSE.txt"
+    "url": "/alice/static/js/2.82f11394.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e4993480cf2b019877ad",
-    "url": "/alice/static/js/main.eec4ea1d.chunk.js"
+    "revision": "973d3a46aa7e9ee1cb8a",
+    "url": "/alice/static/js/main.94151704.chunk.js"
   },
   {
     "revision": "d7ff5ffedbba1fb6d33b",
     "url": "/alice/static/js/runtime-main.88a3146f.js"
+  },
+  {
+    "revision": "9e1a5bfd81eec3cd476c809b3b940b75",
+    "url": "/alice/static/media/access.9e1a5bfd.svg"
+  },
+  {
+    "revision": "a1e34d6177f8d3844e3bf421a8c646da",
+    "url": "/alice/static/media/bench.a1e34d61.png"
   },
   {
     "revision": "f97bbe86ed6108955e3d7001dd40536d",
@@ -84,24 +92,36 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/alice/static/media/croquisVoy.a3f052f3.png"
   },
   {
-    "revision": "b3aaa426997816e62629776f22713a05",
-    "url": "/alice/static/media/cv.b3aaa426.png"
+    "revision": "7daf287da680dc9f4b1d6f8804408047",
+    "url": "/alice/static/media/curio.7daf287d.svg"
   },
   {
-    "revision": "85e453a677cda18ca0ef7ee3fcc388bc",
-    "url": "/alice/static/media/down.85e453a6.png"
+    "revision": "7761da0ca1cd1ec7729df78a54d6358e",
+    "url": "/alice/static/media/down_lightblue.7761da0c.png"
   },
   {
     "revision": "cf172d8489ff05c2950839ff4947aaea",
     "url": "/alice/static/media/empathiePro.cf172d84.jpg"
   },
   {
-    "revision": "da8f09d375189c93cb8c8070acbc2abb",
-    "url": "/alice/static/media/expertise.da8f09d3.png"
+    "revision": "bd27f16c75c250c2cefe943e836326fc",
+    "url": "/alice/static/media/empathyTest.bd27f16c.svg"
+  },
+  {
+    "revision": "4211c3b6b0caff5994f2fee616df4ada",
+    "url": "/alice/static/media/facilitation.4211c3b6.svg"
   },
   {
     "revision": "4b3ad932a998b94c76ae919d8ed29505",
     "url": "/alice/static/media/figmaRew.4b3ad932.png"
+  },
+  {
+    "revision": "65eebe5351e27729dfda7f5e23e06ea1",
+    "url": "/alice/static/media/flex.65eebe53.png"
+  },
+  {
+    "revision": "0216e9526ed2087cc8faebec23c3334f",
+    "url": "/alice/static/media/initiative.0216e952.svg"
   },
   {
     "revision": "bd0789d8eb48d0c82ea179ed75ba2213",
@@ -160,16 +180,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/alice/static/media/matriceVoy.69fcf016.png"
   },
   {
-    "revision": "1a30d0cf5c3f42316d710a3d7f74ea58",
-    "url": "/alice/static/media/methodo.1a30d0cf.png"
-  },
-  {
-    "revision": "a92c157c234e0788d8401fe3d9fca10d",
-    "url": "/alice/static/media/outils.a92c157c.png"
-  },
-  {
     "revision": "50cc663015617570ff2fe27b89b8d7fc",
     "url": "/alice/static/media/parcours.50cc6630.png"
+  },
+  {
+    "revision": "83b09abe4e9afd27d502fb8889c8a19a",
+    "url": "/alice/static/media/parcours.83b09abe.png"
   },
   {
     "revision": "d988ad96aacfae6196222be41e8e34f9",
@@ -188,6 +204,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/alice/static/media/parcoursVoy.a02b0fdb.png"
   },
   {
+    "revision": "1340410cfa1d161a9157116ca02bcf13",
+    "url": "/alice/static/media/pedagogie.1340410c.svg"
+  },
+  {
+    "revision": "5869eb4aa87b803ecf6902f48a0c3077",
+    "url": "/alice/static/media/proto.5869eb4a.svg"
+  },
+  {
     "revision": "5cfa702446f307cf9222133699ff7050",
     "url": "/alice/static/media/protoKok.5cfa7024.png"
   },
@@ -196,8 +220,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/alice/static/media/protoVoy.fb62c259.png"
   },
   {
-    "revision": "07db9515838227471498bb8c550327a0",
-    "url": "/alice/static/media/soft.07db9515.png"
+    "revision": "271c1e4becdd0a7daa5ca4d2013abbe0",
+    "url": "/alice/static/media/resili.271c1e4b.svg"
+  },
+  {
+    "revision": "a5c4fdd3d805225aeb6cfc96b90ef070",
+    "url": "/alice/static/media/sprint.a5c4fdd3.svg"
+  },
+  {
+    "revision": "269825a6e2501ffa78615f86e6ad0699",
+    "url": "/alice/static/media/test.269825a6.svg"
+  },
+  {
+    "revision": "12fb8ab7e093442a70bd395c85408cb9",
+    "url": "/alice/static/media/thinking.12fb8ab7.svg"
   },
   {
     "revision": "4b16ac1ad46072fc4bfc118a7e92708c",
