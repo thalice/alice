@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from "react";
-import hole from "./img/down_lightblue.png";
+import hole from "./img/down.png";
 import "./styles/accueil.css";
 
 function Accueil() {
@@ -20,12 +20,12 @@ export default Accueil;
 
 function wordflick(node) {
   let words = [
-      "maman dévouée",
-      "familiALICE et non traditionnaliste.",
       "UX Designer",
       "plus réALICE qu'idéaliste.",
       "voyageuse dans l'âme",
       "spirituALICE plutôt que matérialiste.",
+      "maman dévouée",
+      "familiALICE et non traditionnaliste.",
     ],
     part,
     i = 0,

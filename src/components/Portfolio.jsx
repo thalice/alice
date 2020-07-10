@@ -13,8 +13,8 @@ function Portfolio() {
       <div>
         <h1 className="titre1">ETUDES DE CAS</h1>
         <h3>
-          Exempes de collaboration avec des entreprises qui nous ont fait
-          confiance
+          Collaboration avec des entreprises lors de la formation UX Design
+          PopSchool
         </h3>
         <p id="remarquesProto">
           <strong>
@@ -39,7 +39,7 @@ function Portfolio() {
       </div>
       <div>
         <h1 className="titre1"> CAS PRATIQUES</h1>
-        <p>Exercices pratiques en cours de formation.</p>
+        <h3>Exercices pratiques de refonte d'applications existantes.</h3>
 
         <Jeff />
         <Promod />

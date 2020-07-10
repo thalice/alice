@@ -25,8 +25,10 @@ function AboutMe() {
         <div className="blocText">
           <div className="titreIcone">
             <img className="icone" src={pedagogie} alt="icone pedagogie"></img>
-            <h2>PEDAGOGIE</h2>
-            <p>enseignant l'anglais aux 4 à 14ans</p>
+            <div className="text-section">
+              <h3>PEDAGOGIE</h3>
+              <p>enseignement de l'anglais aux 4 à 14 ans</p>
+            </div>
           </div>
 
           <div className="titreIcone">
@@ -35,13 +37,16 @@ function AboutMe() {
               src={flexibilite}
               alt="icone flexibility"
             ></img>
-            <h2> FEXIBILITE</h2>
+            <div className="text-section">
+              <h3> FLEXIBILITE</h3>
 
-            <p>
-              {" "}
-              transmis par le voyage et divers secteurs de travail,en équipe ou
-              solo{" "}
-            </p>
+              <p>
+                {" "}
+                transmis par le voyage,
+                <p>l'exercice dans divers secteurs pro,</p>
+                <p>en équipe ou solo</p>
+              </p>
+            </div>
           </div>
 
           <div className="titreIcone">
@@ -50,18 +55,22 @@ function AboutMe() {
               src={initiative}
               alt="icone initiative"
             ></img>
-            <h3> INITIATIVE, ORGANISATION </h3>
+            <div className="text-section">
+              <h3> INITIATIVE, ORGANISATION </h3>
 
-            <p>chargé d'évenementiel associatif </p>
+              <p>chargé d'évenementiel associatif </p>
+            </div>
           </div>
 
           <div className="titreIcone">
             <img className="icone" src={curiosite} alt="icone curiosite"></img>
-            <h3> ESPRIT DE SYNTHESE, CURIOSITE</h3>
-            <p>
-              vision d'ensemble pour répondre à une problématique...c'est pour
-              ça que je suis UX designer!
-            </p>
+            <div className="text-section">
+              <h3> CURIOSITE, SYNTHESE</h3>
+              <p>
+                avoir une vision d'ensemble pour répondre à une problématique
+                dans mon quotidien
+              </p>
+            </div>
           </div>
 
           <div className="titreIcone">
@@ -70,11 +79,14 @@ function AboutMe() {
               src={resilience}
               alt="icone resilience"
             ></img>
-            <h3> INTROSPECTION,DISCIPLINE et RESILIENCE </h3>
-            <p>Voilà un 3 en 1 nécéssaire pour la gestion du stress</p>
+            <div className="text-section">
+              <h3> INTROSPECTION, DISCIPLINE,RESILIENCE </h3>
+              <p>Voilà un 3 en 1 nécéssaire pour la gestion du stress</p>
+            </div>
           </div>
         </div>
       </div>
+
       <div className="blocJaune">
         <h1 className="titreCaracteristique">SAVOIR-FAIRE</h1>
 
@@ -82,38 +94,55 @@ function AboutMe() {
         <div className="blocText">
           <div className="titreIcone">
             <img className="icone" src={persona} alt="icone pedagogie"></img>
-            <h2>PERSONA</h2>
-            <p>carte empathie</p>
+            <div className="text-sectionJaune">
+              <h3>PERSONA</h3>
+              <p>Test d'empathie et carte empathie</p>
+            </div>
           </div>
 
           <div className="titreIcone">
             <img className="icone" src={parcours} alt="icone flexibility"></img>
-            <h3> PARCOURS UTILISATEUR</h3>
-
-            <p>user flow, roadmap, architecture de l'info</p>
+            <div className="text-sectionJaune">
+              <h3> PARCOURS UTILISATEUR</h3>
+              <ul className="listDetails">
+                <li>User flow, roadmap</li>
+                <li>Storytelling</li>
+                <li>Architecture de l'informations</li>
+              </ul>
+            </div>
           </div>
 
           <div className="titreIcone">
             <img className="icone" src={proto} alt="icone initiative"></img>
-            <h2> PROTOTYPAGE</h2>
-
-            <p>design system, responsive</p>
+            <div className="text-sectionJaune">
+              <h3> PROTOTYPAGE</h3>
+              <ul className="listDetails">
+                <li>Design system</li>
+                <li>Responsive</li>
+              </ul>
+            </div>
           </div>
-
           <div className="titreIcone">
             <img className="icone" src={test} alt="icone curiosite"></img>
-            <h3> TEST UTILISATEUR</h3>
-            <p>recrutement,guide interview</p>
+            <div className="text-sectionJaune">
+              <h3> TEST UTILISATEUR</h3>
+              <ul className="listDetails">
+                <li>Recrutement</li>
+                <li>Guide d'interview</li>
+                <li>Lead d'interview</li>
+              </ul>
+            </div>
           </div>
-
           <div className="titreIcone">
             <img
               className="icone"
               src={accessibilite}
               alt="icone resilience"
             ></img>
-            <h2> ACCESSIBILITE</h2>
-            <p>normes RGAA</p>
+            <div className="text-sectionJaune">
+              <h3> ACCESSIBILITE</h3>
+              <p>Normes RGAA</p>
+            </div>
           </div>
         </div>
       </div>
@@ -125,11 +154,13 @@ function AboutMe() {
         <div className="blocText">
           <div className="titreIcone">
             <img className="icone" src={sprint} alt="icone pedagogie"></img>
-            <h3> DESIGN SPRINT</h3>
-            <p>
-              Méthode initée par Google, pour une création rapide d'un maximum
-              d'idées
-            </p>
+            <div className="text-section">
+              <h3> DESIGN SPRINT</h3>
+              <p>
+                Méthode initée par Google, pour une création rapide d'un maximum
+                d'idées
+              </p>
+            </div>
           </div>
 
           <div className="titreIcone">
@@ -138,28 +169,33 @@ function AboutMe() {
               src={facilitation}
               alt="icone flexibility"
             ></img>
-            <h2> FACILITATION </h2>
+            <div className="text-section">
+              <h3> FACILITATION </h3>
 
-            <p>Animation d'ateliers d'intelligence collective</p>
+              <p>Animation d'ateliers d'intelligence collective</p>
+            </div>
           </div>
 
           <div className="titreIcone">
             <img className="icone" src={thinking} alt="icone initiative"></img>
-            <h3> DESIGN THINKING</h3>
-
-            <p>Atelier de créativite</p>
+            <div className="text-section">
+              <h3> DESIGN THINKING</h3>
+              <p>Atelier de créativite</p>
+            </div>
           </div>
 
           <div className="titreIcone">
             <img className="icone" src={bench} alt="icone curiosite"></img>
-            <h2> BENCHMARK</h2>
-            <p>Veille sur des autres sites et appli pour inspiration</p>
+            <div className="text-section">
+              <h3> BENCHMARK</h3>
+              <p>Veille et inspiration</p>
+            </div>
           </div>
         </div>
       </div>
-
+      {/*OUTILS*/}
       <div className="blocJaune">
-        <h1>OUTILS</h1>
+        <h1 className="titreCaracteristique">OUTILS</h1>
 
         <p>PROTOTYPAGE Figma</p>
         <p>TEST UTILISATEUR Zoom,Google Meet, Whereby,Jitsi </p>

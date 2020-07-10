@@ -1,34 +1,63 @@
 #mainBloc {
-  margin: 200px;
-  justify-content: space-between;
+  margin-top: 200px;
+  /* justify-content: space-between; */
 }
 
 .bloc {
-  border: 10px solid white;
+  /* border: 10px solid white; */
   background-color: rgb(112, 177, 218);
-  padding: 20px;
+  /* padding: 20px; */
+  /* border: 1px solid black; */
 }
 
 .blocJaune {
-  border: 10px solid white;
+  /* border: 10px solid white; */
   background-color: rgb(251, 251, 106);
-  padding: 20px;
+  /* padding: 20px; */
 }
 .blocText {
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 10px;
+  /* border: 1px solid blue; */
 }
 .icone {
-  width: 80px;
-  height: 80px;
+  width: 20%;
 }
 
 .titreCaracteristique {
   text-align: center;
 }
 .titreIcone {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 30px;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-rows: 100px 200px;
+  justify-items: center;
+  width: 100%;
+  height: 300px;
+  /* border: 1px solid red; */
+}
+.text-section {
+  background: hsla(190, 50%, 50%, 0.5);
+  text-align: center;
+  width: 100%;
+  /* border: 1px solid red; */
+}
+.text-section p {
+  /* background: hsla(0, 50%, 50%, 0.5); */
+  /* text-align: center; */
+  /* width: 100%; */
+  padding: 0 20px;
+  /* border: 1px solid red; */
+}
+.text-sectionJaune {
+  background: rgb(255, 230, 89);
+  text-align: center;
+  width: 100%;
+  /* border: 1px solid red; */
+}
+
+.listDetails {
+  display: block;
+  list-style: square;
 }
