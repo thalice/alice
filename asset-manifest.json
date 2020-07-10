@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/alice/static/css/main.8b00e87e.chunk.css",
-    "main.js": "/alice/static/js/main.94151704.chunk.js",
-    "main.js.map": "/alice/static/js/main.94151704.chunk.js.map",
+    "main.css": "/alice/static/css/main.253e83e8.chunk.css",
+    "main.js": "/alice/static/js/main.924129b3.chunk.js",
+    "main.js.map": "/alice/static/js/main.924129b3.chunk.js.map",
     "runtime-main.js": "/alice/static/js/runtime-main.88a3146f.js",
     "runtime-main.js.map": "/alice/static/js/runtime-main.88a3146f.js.map",
     "static/js/2.82f11394.chunk.js": "/alice/static/js/2.82f11394.chunk.js",
     "static/js/2.82f11394.chunk.js.map": "/alice/static/js/2.82f11394.chunk.js.map",
     "index.html": "/alice/index.html",
-    "precache-manifest.c91de02765d2c0a6b9a9b8c02bfaaa33.js": "/alice/precache-manifest.c91de02765d2c0a6b9a9b8c02bfaaa33.js",
+    "precache-manifest.6401d75603c4e208c90ba9f4aed75c0a.js": "/alice/precache-manifest.6401d75603c4e208c90ba9f4aed75c0a.js",
     "service-worker.js": "/alice/service-worker.js",
-    "static/css/main.8b00e87e.chunk.css.map": "/alice/static/css/main.8b00e87e.chunk.css.map",
+    "static/css/main.253e83e8.chunk.css.map": "/alice/static/css/main.253e83e8.chunk.css.map",
     "static/js/2.82f11394.chunk.js.LICENSE.txt": "/alice/static/js/2.82f11394.chunk.js.LICENSE.txt",
     "static/media/access.svg": "/alice/static/media/access.9e1a5bfd.svg",
     "static/media/bench.png": "/alice/static/media/bench.a1e34d61.png",
@@ -30,7 +30,7 @@
     "static/media/croquisVoteRew.png": "/alice/static/media/croquisVoteRew.cd618419.png",
     "static/media/croquisVoy.png": "/alice/static/media/croquisVoy.a3f052f3.png",
     "static/media/curio.svg": "/alice/static/media/curio.7daf287d.svg",
-    "static/media/down_lightblue.png": "/alice/static/media/down_lightblue.7761da0c.png",
+    "static/media/down.png": "/alice/static/media/down.85e453a6.png",
     "static/media/empathiePro.jpg": "/alice/static/media/empathiePro.cf172d84.jpg",
     "static/media/empathyTest.svg": "/alice/static/media/empathyTest.bd27f16c.svg",
     "static/media/facilitation.svg": "/alice/static/media/facilitation.4211c3b6.svg",
@@ -69,7 +69,7 @@
   "entrypoints": [
     "static/js/runtime-main.88a3146f.js",
     "static/js/2.82f11394.chunk.js",
-    "static/css/main.8b00e87e.chunk.css",
-    "static/js/main.94151704.chunk.js"
+    "static/css/main.253e83e8.chunk.css",
+    "static/js/main.924129b3.chunk.js"
   ]
 }
